@@ -164,5 +164,5 @@ Werkzeug==2.2.3
 wrapt==1.16.0
 WTForms==3.1.2
 yarl==1.9.4
-yfinance==0.2.36
 zipp==3.17.0
+twelvedata
