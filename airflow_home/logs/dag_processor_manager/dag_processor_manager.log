@@ -28071,3 +28071,319 @@ File Path                                                                       
 /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90268  0.00s             1           0  0.48s           2026-04-23T17:50:53
 /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T17:51:22
 ================================================================================
+[2026-04-23T17:51:54.338+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T17:51:36
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90300  0.00s             1           0  0.49s           2026-04-23T17:51:24
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T17:51:53
+================================================================================
+[2026-04-23T17:52:24.904+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.38s           2026-04-23T17:52:07
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90326  0.00s             1           0  0.45s           2026-04-23T17:51:54
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T17:52:23
+================================================================================
+[2026-04-23T17:52:44.420+0000] {manager.py:738} INFO - Searching for files in /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags
+[2026-04-23T17:52:44.421+0000] {manager.py:741} INFO - There are 3 files in /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags
+[2026-04-23T17:52:55.479+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T17:52:37
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90350  0.00s             1           0  0.45s           2026-04-23T17:52:25
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T17:52:54
+================================================================================
+[2026-04-23T17:53:26.059+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.40s           2026-04-23T17:53:08
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90376  0.00s             1           0  0.47s           2026-04-23T17:52:55
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T17:53:25
+================================================================================
+[2026-04-23T17:53:56.643+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.40s           2026-04-23T17:53:38
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90404  0.00s             1           0  0.47s           2026-04-23T17:53:26
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T17:53:55
+================================================================================
+[2026-04-23T17:54:27.210+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.46s           2026-04-23T17:54:09
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90429  0.00s             1           0  0.45s           2026-04-23T17:53:57
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.08s           2026-04-23T17:54:26
+================================================================================
+[2026-04-23T17:54:57.786+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T17:54:40
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90455  0.00s             1           0  0.46s           2026-04-23T17:54:27
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T17:54:56
+================================================================================
+[2026-04-23T17:55:28.361+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.40s           2026-04-23T17:55:10
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90478  0.00s             1           0  0.46s           2026-04-23T17:54:58
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T17:55:27
+================================================================================
+[2026-04-23T17:55:58.926+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.42s           2026-04-23T17:55:41
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90507  0.00s             1           0  0.45s           2026-04-23T17:55:28
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T17:55:57
+================================================================================
+[2026-04-23T17:56:29.509+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T17:56:11
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90534  0.00s             1           0  0.47s           2026-04-23T17:55:59
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T17:56:28
+================================================================================
+[2026-04-23T17:57:00.071+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.40s           2026-04-23T17:56:42
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90558  0.00s             1           0  0.45s           2026-04-23T17:56:29
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T17:56:59
+================================================================================
+[2026-04-23T17:57:30.639+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T17:57:12
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90584  0.00s             1           0  0.46s           2026-04-23T17:57:00
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T17:57:29
+================================================================================
+[2026-04-23T17:57:44.522+0000] {manager.py:738} INFO - Searching for files in /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags
+[2026-04-23T17:57:44.524+0000] {manager.py:741} INFO - There are 3 files in /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags
+[2026-04-23T17:58:01.200+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T17:57:43
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90610  0.00s             1           0  0.45s           2026-04-23T17:57:31
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T17:58:00
+================================================================================
+[2026-04-23T17:58:31.766+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T17:58:14
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90632  0.00s             1           0  0.45s           2026-04-23T17:58:01
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T17:58:30
+================================================================================
+[2026-04-23T17:59:02.338+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T17:58:44
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90659  0.00s             1           0  0.46s           2026-04-23T17:58:32
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T17:59:01
+================================================================================
+[2026-04-23T17:59:32.909+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T17:59:15
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90688  0.00s             1           0  0.45s           2026-04-23T17:59:02
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T17:59:31
+================================================================================
+[2026-04-23T18:00:03.477+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.40s           2026-04-23T17:59:45
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90713  0.00s             1           0  0.45s           2026-04-23T17:59:33
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T18:00:02
+================================================================================
+[2026-04-23T18:00:34.051+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.40s           2026-04-23T18:00:16
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90736  0.00s             1           0  0.46s           2026-04-23T18:00:03
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T18:00:33
+================================================================================
+[2026-04-23T18:01:04.622+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T18:00:46
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90762  0.00s             1           0  0.46s           2026-04-23T18:00:34
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T18:01:03
+================================================================================
+[2026-04-23T18:01:35.196+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T18:01:17
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90791  0.00s             1           0  0.46s           2026-04-23T18:01:05
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T18:01:34
+================================================================================
+[2026-04-23T18:02:05.762+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T18:01:48
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90817  0.00s             1           0  0.45s           2026-04-23T18:01:35
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T18:02:04
+================================================================================
+[2026-04-23T18:02:36.351+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T18:02:18
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90842  0.00s             1           0  0.47s           2026-04-23T18:02:06
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T18:02:35
+================================================================================
+[2026-04-23T18:02:44.820+0000] {manager.py:738} INFO - Searching for files in /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags
+[2026-04-23T18:02:44.822+0000] {manager.py:741} INFO - There are 3 files in /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags
+[2026-04-23T18:03:06.922+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T18:02:49
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90866  0.00s             1           0  0.45s           2026-04-23T18:02:36
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T18:03:05
+================================================================================
+[2026-04-23T18:03:37.496+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T18:03:19
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90898  0.00s             1           0  0.46s           2026-04-23T18:03:07
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T18:03:36
+================================================================================
+[2026-04-23T18:04:08.061+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.41s           2026-04-23T18:03:50
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90922  0.00s             1           0  0.45s           2026-04-23T18:03:37
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T18:04:07
+================================================================================
+[2026-04-23T18:04:38.640+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T18:04:20
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90946  0.00s             1           0  0.46s           2026-04-23T18:04:08
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T18:04:37
+================================================================================
+[2026-04-23T18:05:09.215+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.40s           2026-04-23T18:04:51
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  90974  0.00s             1           0  0.46s           2026-04-23T18:04:39
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T18:05:08
+================================================================================
+[2026-04-23T18:05:39.791+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.39s           2026-04-23T18:05:22
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  91004  0.00s             1           0  0.46s           2026-04-23T18:05:09
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T18:05:38
+================================================================================
+[2026-04-23T18:06:10.364+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.40s           2026-04-23T18:05:52
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  91033  0.00s             1           0  0.46s           2026-04-23T18:05:40
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.11s           2026-04-23T18:06:09
+================================================================================
+[2026-04-23T18:06:40.947+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.40s           2026-04-23T18:06:23
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  91060  0.00s             1           0  0.47s           2026-04-23T18:06:10
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T18:06:40
+================================================================================
+[2026-04-23T18:07:11.504+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py                                     0           0  0.41s           2026-04-23T18:06:53
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py  91084  0.00s             1           0  0.44s           2026-04-23T18:06:41
+/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py                              1           0  0.09s           2026-04-23T18:07:10
+================================================================================

@@ -10513,3 +10513,153 @@
 [2026-04-23T17:51:36.276+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:51:36.275+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
 [2026-04-23T17:51:36.617+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
 [2026-04-23T17:51:36.638+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.368 seconds
+[2026-04-23T17:52:06.839+0000] {processor.py:161} INFO - Started process (PID=90310) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:52:06.840+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T17:52:06.841+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:52:06.841+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:52:07.175+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:52:07.196+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.360 seconds
+[2026-04-23T17:52:37.405+0000] {processor.py:161} INFO - Started process (PID=90336) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:52:37.407+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T17:52:37.407+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:52:37.407+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:52:37.743+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:52:37.764+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.362 seconds
+[2026-04-23T17:53:07.993+0000] {processor.py:161} INFO - Started process (PID=90359) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:53:07.995+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T17:53:07.995+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:53:07.995+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:53:08.347+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:53:08.368+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.379 seconds
+[2026-04-23T17:53:38.577+0000] {processor.py:161} INFO - Started process (PID=90387) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:53:38.583+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T17:53:38.584+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:53:38.584+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:53:38.928+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:53:38.948+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.375 seconds
+[2026-04-23T17:54:09.145+0000] {processor.py:161} INFO - Started process (PID=90413) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:54:09.147+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T17:54:09.148+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:54:09.147+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:54:09.559+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:54:09.580+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.439 seconds
+[2026-04-23T17:54:39.718+0000] {processor.py:161} INFO - Started process (PID=90439) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:54:39.720+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T17:54:39.721+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:54:39.720+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:54:40.065+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:54:40.086+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.371 seconds
+[2026-04-23T17:55:10.293+0000] {processor.py:161} INFO - Started process (PID=90463) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:55:10.295+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T17:55:10.295+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:55:10.295+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:55:10.645+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:55:10.666+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.376 seconds
+[2026-04-23T17:55:40.860+0000] {processor.py:161} INFO - Started process (PID=90491) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:55:40.862+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T17:55:40.863+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:55:40.862+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:55:41.231+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:55:41.252+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.395 seconds
+[2026-04-23T17:56:11.442+0000] {processor.py:161} INFO - Started process (PID=90515) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:56:11.444+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T17:56:11.444+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:56:11.444+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:56:11.782+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:56:11.803+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.365 seconds
+[2026-04-23T17:56:42.008+0000] {processor.py:161} INFO - Started process (PID=90542) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:56:42.009+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T17:56:42.010+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:56:42.010+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:56:42.354+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:56:42.375+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.371 seconds
+[2026-04-23T17:57:12.574+0000] {processor.py:161} INFO - Started process (PID=90568) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:57:12.576+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T17:57:12.577+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:57:12.576+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:57:12.919+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:57:12.940+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.369 seconds
+[2026-04-23T17:57:43.135+0000] {processor.py:161} INFO - Started process (PID=90592) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:57:43.137+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T17:57:43.137+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:57:43.137+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:57:43.478+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:57:43.499+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.368 seconds
+[2026-04-23T17:58:13.698+0000] {processor.py:161} INFO - Started process (PID=90618) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:58:13.700+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T17:58:13.700+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:58:13.700+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:58:14.039+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:58:14.060+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.365 seconds
+[2026-04-23T17:58:44.272+0000] {processor.py:161} INFO - Started process (PID=90641) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:58:44.274+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T17:58:44.275+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:58:44.274+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:58:44.612+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:58:44.633+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.364 seconds
+[2026-04-23T17:59:14.840+0000] {processor.py:161} INFO - Started process (PID=90669) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:59:14.842+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T17:59:14.842+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:59:14.842+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:59:15.181+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:59:15.203+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.366 seconds
+[2026-04-23T17:59:45.409+0000] {processor.py:161} INFO - Started process (PID=90697) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:59:45.411+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T17:59:45.412+0000] {logging_mixin.py:188} INFO - [2026-04-23T17:59:45.411+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:59:45.758+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T17:59:45.779+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.374 seconds
+[2026-04-23T18:00:15.986+0000] {processor.py:161} INFO - Started process (PID=90722) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:00:15.988+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T18:00:15.988+0000] {logging_mixin.py:188} INFO - [2026-04-23T18:00:15.988+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:00:16.342+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:00:16.362+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.380 seconds
+[2026-04-23T18:00:46.558+0000] {processor.py:161} INFO - Started process (PID=90746) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:00:46.560+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T18:00:46.561+0000] {logging_mixin.py:188} INFO - [2026-04-23T18:00:46.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:00:46.903+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:00:46.924+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.369 seconds
+[2026-04-23T18:01:17.131+0000] {processor.py:161} INFO - Started process (PID=90776) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:01:17.132+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T18:01:17.133+0000] {logging_mixin.py:188} INFO - [2026-04-23T18:01:17.133+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:01:17.476+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:01:17.497+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.369 seconds
+[2026-04-23T18:01:47.699+0000] {processor.py:161} INFO - Started process (PID=90799) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:01:47.701+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T18:01:47.701+0000] {logging_mixin.py:188} INFO - [2026-04-23T18:01:47.701+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:01:48.040+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:01:48.061+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.365 seconds
+[2026-04-23T18:02:18.284+0000] {processor.py:161} INFO - Started process (PID=90827) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:02:18.285+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T18:02:18.286+0000] {logging_mixin.py:188} INFO - [2026-04-23T18:02:18.286+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:02:18.628+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:02:18.649+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.368 seconds
+[2026-04-23T18:02:48.856+0000] {processor.py:161} INFO - Started process (PID=90849) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:02:48.857+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T18:02:48.858+0000] {logging_mixin.py:188} INFO - [2026-04-23T18:02:48.858+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:02:49.203+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:02:49.224+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.371 seconds
+[2026-04-23T18:03:19.433+0000] {processor.py:161} INFO - Started process (PID=90881) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:03:19.434+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T18:03:19.435+0000] {logging_mixin.py:188} INFO - [2026-04-23T18:03:19.435+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:03:19.777+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:03:19.798+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.369 seconds
+[2026-04-23T18:03:49.997+0000] {processor.py:161} INFO - Started process (PID=90905) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:03:49.999+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T18:03:49.999+0000] {logging_mixin.py:188} INFO - [2026-04-23T18:03:49.999+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:03:50.358+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:03:50.380+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.386 seconds
+[2026-04-23T18:04:20.574+0000] {processor.py:161} INFO - Started process (PID=90929) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:04:20.576+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T18:04:20.577+0000] {logging_mixin.py:188} INFO - [2026-04-23T18:04:20.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:04:20.921+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:04:20.942+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.371 seconds
+[2026-04-23T18:04:51.149+0000] {processor.py:161} INFO - Started process (PID=90959) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:04:51.151+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T18:04:51.151+0000] {logging_mixin.py:188} INFO - [2026-04-23T18:04:51.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:04:51.496+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:04:51.517+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.371 seconds
+[2026-04-23T18:05:21.726+0000] {processor.py:161} INFO - Started process (PID=90984) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:05:21.727+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T18:05:21.728+0000] {logging_mixin.py:188} INFO - [2026-04-23T18:05:21.728+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:05:22.070+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:05:22.091+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.369 seconds
+[2026-04-23T18:05:52.299+0000] {processor.py:161} INFO - Started process (PID=91012) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:05:52.301+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T18:05:52.301+0000] {logging_mixin.py:188} INFO - [2026-04-23T18:05:52.301+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:05:52.655+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:05:52.676+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.380 seconds
+[2026-04-23T18:06:22.882+0000] {processor.py:161} INFO - Started process (PID=91044) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:06:22.883+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T18:06:22.884+0000] {logging_mixin.py:188} INFO - [2026-04-23T18:06:22.884+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:06:23.237+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:06:23.258+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.380 seconds
+[2026-04-23T18:06:53.439+0000] {processor.py:161} INFO - Started process (PID=91068) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:06:53.441+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py for tasks to queue
+[2026-04-23T18:06:53.442+0000] {logging_mixin.py:188} INFO - [2026-04-23T18:06:53.441+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:06:53.801+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py
+[2026-04-23T18:06:53.821+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/sensors.py took 0.386 seconds
