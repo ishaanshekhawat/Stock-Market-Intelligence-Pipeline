@@ -15664,3 +15664,171 @@
 [2026-04-24T19:03:23.650+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:03:23.649+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-04-24T19:03:23.669+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:03:23.668+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
 [2026-04-24T19:03:23.685+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.561 seconds
+[2026-04-24T19:03:53.794+0000] {processor.py:161} INFO - Started process (PID=167639) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:03:53.795+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:03:53.796+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:03:53.796+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:03:54.255+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:03:54.287+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:03:54.287+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:03:54.306+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:03:54.305+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:03:54.320+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.530 seconds
+[2026-04-24T19:04:24.429+0000] {processor.py:161} INFO - Started process (PID=167665) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:04:24.431+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:04:24.432+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:04:24.431+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:04:24.900+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:04:24.928+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:04:24.928+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:04:24.946+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:04:24.946+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:04:24.963+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.537 seconds
+[2026-04-24T19:04:55.073+0000] {processor.py:161} INFO - Started process (PID=167687) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:04:55.074+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:04:55.075+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:04:55.075+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:04:55.547+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:04:55.578+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:04:55.578+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:04:55.595+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:04:55.595+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:04:55.610+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.541 seconds
+[2026-04-24T19:05:25.724+0000] {processor.py:161} INFO - Started process (PID=167719) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:05:25.726+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:05:25.727+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:05:25.726+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:05:26.223+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:05:26.259+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:05:26.258+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:05:26.281+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:05:26.281+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:05:26.299+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.578 seconds
+[2026-04-24T19:05:56.408+0000] {processor.py:161} INFO - Started process (PID=167743) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:05:56.410+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:05:56.410+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:05:56.410+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:05:56.872+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:05:56.903+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:05:56.902+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:05:56.921+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:05:56.921+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:05:56.936+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.532 seconds
+[2026-04-24T19:06:27.048+0000] {processor.py:161} INFO - Started process (PID=167771) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:06:27.050+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:06:27.051+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:06:27.050+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:06:27.513+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:06:27.543+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:06:27.542+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:06:27.562+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:06:27.562+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:06:27.579+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.535 seconds
+[2026-04-24T19:06:57.694+0000] {processor.py:161} INFO - Started process (PID=167793) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:06:57.696+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:06:57.697+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:06:57.697+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:06:58.179+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:06:58.209+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:06:58.209+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:06:58.228+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:06:58.228+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:06:58.245+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.554 seconds
+[2026-04-24T19:07:28.355+0000] {processor.py:161} INFO - Started process (PID=167820) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:07:28.356+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:07:28.357+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:07:28.357+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:07:28.827+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:07:28.856+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:07:28.856+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:07:28.875+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:07:28.875+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:07:28.893+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.542 seconds
+[2026-04-24T19:07:59.001+0000] {processor.py:161} INFO - Started process (PID=167844) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:07:59.003+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:07:59.004+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:07:59.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:07:59.500+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:07:59.531+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:07:59.531+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:07:59.550+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:07:59.550+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:07:59.569+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.571 seconds
+[2026-04-24T19:08:29.683+0000] {processor.py:161} INFO - Started process (PID=167866) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:08:29.685+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:08:29.686+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:08:29.686+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:08:30.160+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:08:30.194+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:08:30.193+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:08:30.214+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:08:30.213+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:08:30.229+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.549 seconds
+[2026-04-24T19:09:00.345+0000] {processor.py:161} INFO - Started process (PID=167888) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:09:00.347+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:09:00.348+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:09:00.347+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:09:00.882+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:09:00.915+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:09:00.912+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:09:00.934+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:09:00.934+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:09:00.952+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.611 seconds
+[2026-04-24T19:09:31.064+0000] {processor.py:161} INFO - Started process (PID=167922) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:09:31.066+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:09:31.067+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:09:31.066+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:09:31.552+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:09:31.585+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:09:31.584+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:09:31.603+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:09:31.603+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:09:31.617+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.556 seconds
+[2026-04-24T19:10:01.729+0000] {processor.py:161} INFO - Started process (PID=167985) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:10:01.733+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:10:01.734+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:10:01.734+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:10:02.218+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:10:02.251+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:10:02.251+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:10:02.270+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:10:02.270+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:10:02.287+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.561 seconds
+[2026-04-24T19:10:32.400+0000] {processor.py:161} INFO - Started process (PID=168007) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:10:32.402+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:10:32.403+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:10:32.402+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:10:32.838+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:10:32.869+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:10:32.868+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:10:32.892+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:10:32.891+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:10:32.912+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.516 seconds
+[2026-04-24T19:11:03.035+0000] {processor.py:161} INFO - Started process (PID=168041) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:11:03.038+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:11:03.039+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:11:03.039+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:11:03.540+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:11:03.570+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:11:03.569+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:11:03.590+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:11:03.590+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:11:03.607+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.575 seconds
+[2026-04-24T19:11:33.716+0000] {processor.py:161} INFO - Started process (PID=168071) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:11:33.718+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:11:33.718+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:11:33.718+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:11:34.172+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:11:34.206+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:11:34.206+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:11:34.227+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:11:34.227+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:11:34.243+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.530 seconds
+[2026-04-24T19:12:04.368+0000] {processor.py:161} INFO - Started process (PID=168114) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:12:04.370+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:12:04.371+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:12:04.370+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:12:04.827+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:12:04.857+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:12:04.856+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:12:04.874+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:12:04.874+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:12:04.889+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.525 seconds
+[2026-04-24T19:12:35.000+0000] {processor.py:161} INFO - Started process (PID=168156) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:12:35.002+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:12:35.003+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:12:35.003+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:12:35.497+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:12:35.528+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:12:35.528+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:12:35.547+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:12:35.547+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:12:35.566+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.569 seconds
+[2026-04-24T19:13:05.683+0000] {processor.py:161} INFO - Started process (PID=168193) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:13:05.685+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:13:05.686+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:13:05.686+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:13:06.144+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:13:06.175+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:13:06.175+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:13:06.196+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:13:06.196+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:13:06.214+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.535 seconds
+[2026-04-24T19:13:36.366+0000] {processor.py:161} INFO - Started process (PID=168230) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:13:36.368+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:13:36.369+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:13:36.369+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:13:36.825+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:13:36.856+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:13:36.855+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:13:36.874+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:13:36.874+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:13:36.891+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.528 seconds
+[2026-04-24T19:14:07.001+0000] {processor.py:161} INFO - Started process (PID=168254) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:14:07.003+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:14:07.004+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:14:07.003+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:14:07.441+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:14:07.472+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:14:07.471+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:14:07.492+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:14:07.492+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:14:07.508+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.511 seconds
+[2026-04-24T19:14:37.658+0000] {processor.py:161} INFO - Started process (PID=168283) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:14:37.660+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:14:37.661+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:14:37.661+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:14:38.340+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:14:38.372+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:14:38.370+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:14:38.392+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:14:38.392+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 18:45:00+00:00, run_after=2026-04-24 19:00:00+00:00
+[2026-04-24T19:14:38.410+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.757 seconds
+[2026-04-24T19:15:08.480+0000] {processor.py:161} INFO - Started process (PID=168313) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:15:08.482+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:15:08.482+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:15:08.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:15:08.914+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:15:08.945+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:15:08.944+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:15:08.965+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:15:08.964+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 19:00:00+00:00, run_after=2026-04-24 19:15:00+00:00
+[2026-04-24T19:15:08.984+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.508 seconds
+[2026-04-24T19:15:39.111+0000] {processor.py:161} INFO - Started process (PID=168335) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:15:39.113+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py for tasks to queue
+[2026-04-24T19:15:39.114+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:15:39.114+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:15:39.598+0000] {processor.py:840} INFO - DAG(s) 'fetch_market_data' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py
+[2026-04-24T19:15:39.627+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:15:39.627+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-24T19:15:39.644+0000] {logging_mixin.py:188} INFO - [2026-04-24T19:15:39.644+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_market_data to 2026-04-24 19:00:00+00:00, run_after=2026-04-24 19:15:00+00:00
+[2026-04-24T19:15:39.660+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py took 0.552 seconds
