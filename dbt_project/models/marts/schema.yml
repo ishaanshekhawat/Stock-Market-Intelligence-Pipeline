@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: fact_prices
+    description: "Partitioned OHLCV price table with daily returns"
+    columns:
+      - name: ticker_id
+        tests: [not_null]
+      - name: fetched_at
+        tests: [not_null]
+      - name: adj_close
+        tests: [not_null]
+
+  - name: fact_indicators
+    description: "Technical indicators computed per ticker per bar"
+    columns:
+      - name: ticker_id
+        tests: [not_null]
+      - name: fetched_at
+        tests: [not_null]
+      - name: rsi_14
+        tests:
+          - not_null
+
+  - name: fact_alerts
+    description: "Anomaly alert log"
+    columns:
+      - name: alert_type
+        tests:
+          - accepted_values:
+              values:
+                - rsi_overbought
+                - rsi_oversold
+                - volume_spike
+                - bb_upper_breach
+                - bb_lower_breach
+                - macd_bullish_cross
+                - macd_bearish_cross
