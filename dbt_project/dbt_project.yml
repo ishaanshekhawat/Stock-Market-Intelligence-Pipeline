@@ -15,7 +15,9 @@ models:
   market_pipeline:
     staging:
       +materialized: view      # staging models are views — no storage cost
+      +schema: staging
     intermediate:
       +materialized: view
+      +schema: staging
     marts:
       +materialized: table     # mart models are physical tables — fast to query

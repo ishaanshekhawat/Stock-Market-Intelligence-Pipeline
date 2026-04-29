@@ -12,7 +12,7 @@ WITH source AS (
         close,
         adj_close,
         volume
-    FROM stg_prices
+    FROM raw.stg_prices
     WHERE
         adj_close IS NOT NULL    -- exclude rows where yfinance returned no price
         AND volume IS NOT NULL
