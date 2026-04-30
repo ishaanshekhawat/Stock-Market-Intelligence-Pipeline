@@ -1,0 +1,92 @@
+[2026-04-30T18:53:50.174+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.ingest_AAPL manual__2026-04-30T18:51:22+00:00 [queued]>
+[2026-04-30T18:53:50.243+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.ingest_AAPL manual__2026-04-30T18:51:22+00:00 [queued]>
+[2026-04-30T18:53:50.243+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-04-30T18:53:50.335+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): ingest_AAPL> on 2026-04-30 18:51:22+00:00
+[2026-04-30T18:53:50.402+0000] {standard_task_runner.py:60} INFO - Started process 620845 to run task
+[2026-04-30T18:53:50.422+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'ingest_AAPL', 'manual__2026-04-30T18:51:22+00:00', '--job-id', '103', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmp7equ7bjy']
+[2026-04-30T18:53:50.438+0000] {standard_task_runner.py:88} INFO - Job 103: Subtask ingest_AAPL
+[2026-04-30T18:53:50.895+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.ingest_AAPL manual__2026-04-30T18:51:22+00:00 [running]> on host reddit-pipeline-vm
+[2026-04-30T18:53:51.522+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='ingest_AAPL' AIRFLOW_CTX_EXECUTION_DATE='2026-04-30T18:51:22+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-30T18:51:22+00:00'
+[2026-04-30T18:53:51.529+0000] {fetch_ohlcv.py:264} INFO - [AAPL] Starting ingest cycle.
+[2026-04-30T18:53:51.588+0000] {fetch_ohlcv.py:271} INFO - [AAPL] ticker_id=1, watermark=2026-04-30 18:30:00+00:00
+[2026-04-30T18:53:52.446+0000] {fetch_ohlcv.py:118} INFO - AAPL: calling Twelve Data — interval=1h, outputsize=90, watermark=2026-04-30 18:30:00+00:00
+[2026-04-30T18:53:52.658+0000] {fetch_ohlcv.py:291} ERROR - [AAPL] Ingest failed: AAPL: Twelve Data error — You have run out of API credits for the current minute. 15 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing
+Traceback (most recent call last):
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/ingestion/fetch_ohlcv.py", line 132, in fetch_bars
+    .as_pandas()
+     ^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/twelvedata/time_series.py", line 114, in as_pandas
+    df = self.price_endpoint.as_pandas()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/twelvedata/mixins.py", line 88, in as_pandas
+    data = self.as_json()
+           ^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/twelvedata/mixins.py", line 49, in as_json
+    resp = self.execute(format="JSON")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/twelvedata/endpoints.py", line 400, in execute
+    return self.ctx.http_client.get(endpoint, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/twelvedata/http_client.py", line 51, in get
+    self._raise_error(error_code, message)
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/twelvedata/http_client.py", line 64, in _raise_error
+    raise TwelveDataError(message)
+twelvedata.exceptions.TwelveDataError: You have run out of API credits for the current minute. 15 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/ingestion/fetch_ohlcv.py", line 273, in ingest_ticker
+    df = fetch_bars(symbol, watermark)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/ingestion/fetch_ohlcv.py", line 141, in fetch_bars
+    raise RuntimeError(f"{symbol}: Twelve Data error — {e}") from e
+RuntimeError: AAPL: Twelve Data error — You have run out of API credits for the current minute. 15 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing
+[2026-04-30T18:53:52.674+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/ingestion/fetch_ohlcv.py", line 132, in fetch_bars
+    .as_pandas()
+     ^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/twelvedata/time_series.py", line 114, in as_pandas
+    df = self.price_endpoint.as_pandas()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/twelvedata/mixins.py", line 88, in as_pandas
+    data = self.as_json()
+           ^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/twelvedata/mixins.py", line 49, in as_json
+    resp = self.execute(format="JSON")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/twelvedata/endpoints.py", line 400, in execute
+    return self.ctx.http_client.get(endpoint, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/twelvedata/http_client.py", line 51, in get
+    self._raise_error(error_code, message)
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/twelvedata/http_client.py", line 64, in _raise_error
+    raise TwelveDataError(message)
+twelvedata.exceptions.TwelveDataError: You have run out of API credits for the current minute. 15 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py", line 58, in _run
+    result = ingest_ticker(symbol)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/ingestion/fetch_ohlcv.py", line 273, in ingest_ticker
+    df = fetch_bars(symbol, watermark)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/ingestion/fetch_ohlcv.py", line 141, in fetch_bars
+    raise RuntimeError(f"{symbol}: Twelve Data error — {e}") from e
+RuntimeError: AAPL: Twelve Data error — You have run out of API credits for the current minute. 15 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing
+[2026-04-30T18:53:52.707+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=fetch_market_data, task_id=ingest_AAPL, execution_date=20260430T185122, start_date=20260430T185350, end_date=20260430T185352
+[2026-04-30T18:53:52.738+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 103 for task ingest_AAPL (AAPL: Twelve Data error — You have run out of API credits for the current minute. 15 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing; 620845)
+[2026-04-30T18:53:52.779+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-04-30T18:53:52.947+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

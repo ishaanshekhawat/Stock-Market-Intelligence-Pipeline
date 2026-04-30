@@ -17450,3 +17450,262 @@ connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  passw
 [2026-04-30T18:34:56.857+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:34:56.856+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-04-30T18:34:56.869+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:34:56.869+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
 [2026-04-30T18:34:56.891+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.085 seconds
+[2026-04-30T18:35:27.410+0000] {processor.py:161} INFO - Started process (PID=618985) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:35:27.412+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:35:27.412+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:35:27.412+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:35:27.421+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:35:27.454+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:35:27.453+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:35:27.467+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:35:27.466+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:35:27.488+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.081 seconds
+[2026-04-30T18:35:57.980+0000] {processor.py:161} INFO - Started process (PID=619011) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:35:57.983+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:35:57.983+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:35:57.983+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:35:57.993+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:35:58.028+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:35:58.028+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:35:58.040+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:35:58.040+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:35:58.060+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.083 seconds
+[2026-04-30T18:36:28.513+0000] {processor.py:161} INFO - Started process (PID=619036) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:36:28.514+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:36:28.515+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:36:28.514+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:36:28.523+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:36:28.556+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:36:28.556+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:36:28.569+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:36:28.568+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:36:28.589+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.080 seconds
+[2026-04-30T18:36:59.073+0000] {processor.py:161} INFO - Started process (PID=619058) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:36:59.075+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:36:59.075+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:36:59.075+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:36:59.085+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:36:59.118+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:36:59.118+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:36:59.129+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:36:59.129+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:36:59.145+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.076 seconds
+[2026-04-30T18:37:29.621+0000] {processor.py:161} INFO - Started process (PID=619084) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:37:29.622+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:37:29.623+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:37:29.623+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:37:29.632+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:37:29.667+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:37:29.667+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:37:29.679+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:37:29.679+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:37:29.700+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.082 seconds
+[2026-04-30T18:38:00.202+0000] {processor.py:161} INFO - Started process (PID=619106) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:38:00.204+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:38:00.205+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:38:00.204+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:38:00.215+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:38:00.248+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:38:00.247+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:38:00.260+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:38:00.260+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:38:00.282+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.084 seconds
+[2026-04-30T18:38:30.763+0000] {processor.py:161} INFO - Started process (PID=619130) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:38:30.764+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:38:30.765+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:38:30.764+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:38:30.773+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:38:30.808+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:38:30.808+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:38:30.821+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:38:30.821+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:38:30.840+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.080 seconds
+[2026-04-30T18:39:01.321+0000] {processor.py:161} INFO - Started process (PID=619156) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:39:01.323+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:39:01.324+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:39:01.324+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:39:01.334+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:39:01.368+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:39:01.368+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:39:01.380+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:39:01.380+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:39:01.401+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.084 seconds
+[2026-04-30T18:39:31.899+0000] {processor.py:161} INFO - Started process (PID=619183) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:39:31.900+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:39:31.901+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:39:31.900+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:39:31.910+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:39:31.945+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:39:31.945+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:39:31.957+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:39:31.957+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:39:31.978+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.083 seconds
+[2026-04-30T18:40:02.463+0000] {processor.py:161} INFO - Started process (PID=619221) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:40:02.465+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:40:02.466+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:40:02.465+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:40:02.475+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:40:02.510+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:40:02.510+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:40:02.522+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:40:02.522+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:40:02.540+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.081 seconds
+[2026-04-30T18:40:33.030+0000] {processor.py:161} INFO - Started process (PID=619247) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:40:33.031+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:40:33.032+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:40:33.032+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:40:33.041+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:40:33.076+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:40:33.076+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:40:33.089+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:40:33.089+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:40:33.109+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.083 seconds
+[2026-04-30T18:41:03.607+0000] {processor.py:161} INFO - Started process (PID=619277) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:41:03.608+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:41:03.609+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:41:03.609+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:41:03.619+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:41:03.651+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:41:03.651+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:41:03.666+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:41:03.665+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:41:03.687+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.084 seconds
+[2026-04-30T18:41:34.156+0000] {processor.py:161} INFO - Started process (PID=619301) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:41:34.157+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:41:34.158+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:41:34.158+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:41:34.167+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:41:34.203+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:41:34.203+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:41:34.215+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:41:34.215+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:41:34.236+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.083 seconds
+[2026-04-30T18:42:04.772+0000] {processor.py:161} INFO - Started process (PID=619485) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:42:04.773+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:42:04.774+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:42:04.774+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:42:04.783+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:42:04.817+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:42:04.816+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:42:04.828+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:42:04.828+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:42:04.848+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.081 seconds
+[2026-04-30T18:42:35.325+0000] {processor.py:161} INFO - Started process (PID=619509) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:42:35.327+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:42:35.328+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:42:35.327+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:42:35.336+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:42:35.371+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:42:35.370+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:42:35.383+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:42:35.383+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:42:35.404+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.083 seconds
+[2026-04-30T18:43:05.887+0000] {processor.py:161} INFO - Started process (PID=619531) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:43:05.889+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:43:05.890+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:43:05.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:43:05.900+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:43:05.934+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:43:05.934+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:43:05.945+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:43:05.944+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:43:05.965+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.081 seconds
+[2026-04-30T18:43:36.445+0000] {processor.py:161} INFO - Started process (PID=619557) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:43:36.446+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:43:36.447+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:43:36.446+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:43:36.456+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:43:36.493+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:43:36.493+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:43:36.506+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:43:36.506+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:43:36.528+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.087 seconds
+[2026-04-30T18:44:07.022+0000] {processor.py:161} INFO - Started process (PID=619579) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:44:07.023+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:44:07.023+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:44:07.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:44:07.033+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:44:07.069+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:44:07.069+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:44:07.083+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:44:07.082+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:44:07.104+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.086 seconds
+[2026-04-30T18:44:37.661+0000] {processor.py:161} INFO - Started process (PID=619606) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:44:37.663+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:44:37.664+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:44:37.664+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:44:37.673+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:44:37.708+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:44:37.708+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:44:37.720+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:44:37.720+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:44:37.740+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.083 seconds
+[2026-04-30T18:45:08.245+0000] {processor.py:161} INFO - Started process (PID=619627) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:45:08.246+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:45:08.247+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:45:08.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:45:08.257+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:45:08.292+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:45:08.292+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:45:08.305+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:45:08.304+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:45:08.326+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.085 seconds
+[2026-04-30T18:45:38.898+0000] {processor.py:161} INFO - Started process (PID=619652) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:45:38.900+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:45:38.901+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:45:38.901+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:45:38.911+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:45:38.945+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:45:38.945+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:45:38.958+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:45:38.957+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:45:38.978+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.084 seconds
+[2026-04-30T18:46:09.451+0000] {processor.py:161} INFO - Started process (PID=619694) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:46:09.453+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:46:09.454+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:46:09.454+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:46:09.464+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:46:09.499+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:46:09.499+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:46:09.512+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:46:09.511+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:46:09.532+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.085 seconds
+[2026-04-30T18:46:40.010+0000] {processor.py:161} INFO - Started process (PID=619718) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:46:40.012+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:46:40.013+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:46:40.013+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:46:40.022+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:46:40.057+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:46:40.057+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:46:40.069+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:46:40.069+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:46:40.091+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.085 seconds
+[2026-04-30T18:47:10.581+0000] {processor.py:161} INFO - Started process (PID=619762) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:47:10.583+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:47:10.584+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:47:10.584+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:47:10.593+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:47:10.628+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:47:10.628+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:47:10.641+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:47:10.641+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:47:10.661+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.084 seconds
+[2026-04-30T18:47:41.221+0000] {processor.py:161} INFO - Started process (PID=619806) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:47:41.222+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:47:41.223+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:47:41.223+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:47:41.233+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:47:41.268+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:47:41.268+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:47:41.282+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:47:41.282+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:47:41.302+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.085 seconds
+[2026-04-30T18:48:11.861+0000] {processor.py:161} INFO - Started process (PID=619855) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:48:11.863+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:48:11.864+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:48:11.864+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:48:11.873+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:48:11.909+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:48:11.908+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:48:11.921+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:48:11.921+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:48:11.941+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.084 seconds
+[2026-04-30T18:48:42.712+0000] {processor.py:161} INFO - Started process (PID=619877) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:48:42.714+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:48:42.715+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:48:42.714+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:48:42.724+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:48:42.760+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:48:42.759+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:48:42.773+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:48:42.773+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:48:42.795+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.087 seconds
+[2026-04-30T18:49:13.335+0000] {processor.py:161} INFO - Started process (PID=620084) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:49:13.340+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:49:13.341+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:49:13.341+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:49:13.351+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:49:13.386+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:49:13.386+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:49:13.399+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:49:13.398+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:49:13.419+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.088 seconds
+[2026-04-30T18:49:43.918+0000] {processor.py:161} INFO - Started process (PID=620114) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:49:43.920+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:49:43.921+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:49:43.920+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:49:43.931+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:49:43.964+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:49:43.964+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:49:43.978+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:49:43.977+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:49:43.998+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.084 seconds
+[2026-04-30T18:50:14.490+0000] {processor.py:161} INFO - Started process (PID=620138) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:50:14.492+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:50:14.493+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:50:14.492+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:50:14.502+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:50:14.538+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:50:14.537+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:50:14.550+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:50:14.549+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:50:14.571+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.084 seconds
+[2026-04-30T18:50:45.064+0000] {processor.py:161} INFO - Started process (PID=620173) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:50:45.066+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:50:45.066+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:50:45.066+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:50:45.077+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:50:45.114+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:50:45.113+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:50:45.127+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:50:45.127+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:50:45.147+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.087 seconds
+[2026-04-30T18:51:15.670+0000] {processor.py:161} INFO - Started process (PID=620233) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:51:15.671+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:51:15.672+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:51:15.671+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:51:15.680+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:51:15.720+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:51:15.720+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:51:15.734+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:51:15.734+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:51:15.756+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.089 seconds
+[2026-04-30T18:51:46.245+0000] {processor.py:161} INFO - Started process (PID=620344) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:51:46.246+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:51:46.247+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:51:46.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:51:46.257+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:51:46.292+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:51:46.292+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:51:46.304+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:51:46.304+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:51:46.325+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.083 seconds
+[2026-04-30T18:52:16.719+0000] {processor.py:161} INFO - Started process (PID=620390) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:52:16.721+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:52:16.722+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:52:16.722+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:52:16.731+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:52:16.766+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:52:16.765+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:52:16.778+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:52:16.778+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:52:16.800+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.084 seconds
+[2026-04-30T18:52:47.257+0000] {processor.py:161} INFO - Started process (PID=620413) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:52:47.259+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:52:47.260+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:52:47.259+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:52:47.269+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:52:47.304+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:52:47.304+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:52:47.317+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:52:47.316+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:52:47.333+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.081 seconds
+[2026-04-30T18:53:17.784+0000] {processor.py:161} INFO - Started process (PID=620460) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:53:17.787+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:53:17.788+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:53:17.788+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:53:17.798+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:53:17.835+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:53:17.835+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:53:17.849+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:53:17.848+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:53:17.872+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.093 seconds
+[2026-04-30T18:53:48.603+0000] {processor.py:161} INFO - Started process (PID=620779) to work on /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:53:48.614+0000] {processor.py:830} INFO - Processing file /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py for tasks to queue
+[2026-04-30T18:53:48.615+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:53:48.615+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:53:48.682+0000] {processor.py:840} INFO - DAG(s) 'run_dbt_models' retrieved from /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py
+[2026-04-30T18:53:48.788+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:53:48.788+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-30T18:53:48.825+0000] {logging_mixin.py:188} INFO - [2026-04-30T18:53:48.824+0000] {dag.py:3823} INFO - Setting next_dagrun for run_dbt_models to None, run_after=None
+[2026-04-30T18:53:48.876+0000] {processor.py:183} INFO - Processing /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/run_dbt_models.py took 0.293 seconds

@@ -1,0 +1,48 @@
+[2026-04-30T18:49:03.142+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.ingest_AMZN manual__2026-04-30T18:48:37.471027+00:00 [queued]>
+[2026-04-30T18:49:03.211+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.ingest_AMZN manual__2026-04-30T18:48:37.471027+00:00 [queued]>
+[2026-04-30T18:49:03.211+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-04-30T18:49:03.282+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): ingest_AMZN> on 2026-04-30 18:48:37.471027+00:00
+[2026-04-30T18:49:03.317+0000] {standard_task_runner.py:60} INFO - Started process 620003 to run task
+[2026-04-30T18:49:03.341+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'ingest_AMZN', 'manual__2026-04-30T18:48:37.471027+00:00', '--job-id', '75', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmplwvixujl']
+[2026-04-30T18:49:03.350+0000] {standard_task_runner.py:88} INFO - Job 75: Subtask ingest_AMZN
+[2026-04-30T18:49:03.734+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.ingest_AMZN manual__2026-04-30T18:48:37.471027+00:00 [running]> on host reddit-pipeline-vm
+[2026-04-30T18:49:04.292+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='ingest_AMZN' AIRFLOW_CTX_EXECUTION_DATE='2026-04-30T18:48:37.471027+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-30T18:48:37.471027+00:00'
+[2026-04-30T18:49:04.302+0000] {fetch_ohlcv.py:264} INFO - [AMZN] Starting ingest cycle.
+[2026-04-30T18:49:04.371+0000] {fetch_ohlcv.py:271} INFO - [AMZN] ticker_id=4, watermark=2026-04-29 18:30:00+00:00
+[2026-04-30T18:49:05.212+0000] {fetch_ohlcv.py:118} INFO - AMZN: calling Twelve Data — interval=1h, outputsize=90, watermark=2026-04-29 18:30:00+00:00
+[2026-04-30T18:49:05.498+0000] {fetch_ohlcv.py:291} ERROR - [AMZN] Ingest failed: Cannot pass a datetime or Timestamp with tzinfo with the tz parameter. Use tz_convert instead.
+Traceback (most recent call last):
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/ingestion/fetch_ohlcv.py", line 273, in ingest_ticker
+    df = fetch_bars(symbol, watermark)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/ingestion/fetch_ohlcv.py", line 182, in fetch_bars
+    watermark_ts = pd.Timestamp(watermark, tz="UTC")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/tslibs/timestamps.pyx", line 2728, in pandas._libs.tslibs.timestamps.Timestamp.__new__
+ValueError: Cannot pass a datetime or Timestamp with tzinfo with the tz parameter. Use tz_convert instead.
+[2026-04-30T18:49:05.500+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dags/fetch_market_data.py", line 58, in _run
+    result = ingest_ticker(symbol)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/ingestion/fetch_ohlcv.py", line 273, in ingest_ticker
+    df = fetch_bars(symbol, watermark)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/ingestion/fetch_ohlcv.py", line 182, in fetch_bars
+    watermark_ts = pd.Timestamp(watermark, tz="UTC")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/tslibs/timestamps.pyx", line 2728, in pandas._libs.tslibs.timestamps.Timestamp.__new__
+ValueError: Cannot pass a datetime or Timestamp with tzinfo with the tz parameter. Use tz_convert instead.
+[2026-04-30T18:49:05.519+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=fetch_market_data, task_id=ingest_AMZN, execution_date=20260430T184837, start_date=20260430T184903, end_date=20260430T184905
+[2026-04-30T18:49:05.532+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 75 for task ingest_AMZN (Cannot pass a datetime or Timestamp with tzinfo with the tz parameter. Use tz_convert instead.; 620003)
+[2026-04-30T18:49:05.579+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-04-30T18:49:05.651+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

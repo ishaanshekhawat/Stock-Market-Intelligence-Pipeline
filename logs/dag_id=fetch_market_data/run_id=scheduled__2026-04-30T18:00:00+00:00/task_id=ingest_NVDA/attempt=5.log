@@ -1,0 +1,18 @@
+[2026-04-30T18:53:42.633+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.ingest_NVDA scheduled__2026-04-30T18:00:00+00:00 [queued]>
+[2026-04-30T18:53:42.641+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.ingest_NVDA scheduled__2026-04-30T18:00:00+00:00 [queued]>
+[2026-04-30T18:53:42.641+0000] {taskinstance.py:2170} INFO - Starting attempt 5 of 7
+[2026-04-30T18:53:42.653+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): ingest_NVDA> on 2026-04-30 18:00:00+00:00
+[2026-04-30T18:53:42.660+0000] {standard_task_runner.py:60} INFO - Started process 620700 to run task
+[2026-04-30T18:53:42.664+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'ingest_NVDA', 'scheduled__2026-04-30T18:00:00+00:00', '--job-id', '96', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmpvi4v6as9']
+[2026-04-30T18:53:42.666+0000] {standard_task_runner.py:88} INFO - Job 96: Subtask ingest_NVDA
+[2026-04-30T18:53:42.748+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.ingest_NVDA scheduled__2026-04-30T18:00:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-04-30T18:53:42.866+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='ingest_NVDA' AIRFLOW_CTX_EXECUTION_DATE='2026-04-30T18:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-04-30T18:00:00+00:00'
+[2026-04-30T18:53:42.867+0000] {fetch_ohlcv.py:264} INFO - [NVDA] Starting ingest cycle.
+[2026-04-30T18:53:42.884+0000] {fetch_ohlcv.py:271} INFO - [NVDA] ticker_id=6, watermark=2026-04-30 18:30:00+00:00
+[2026-04-30T18:53:43.552+0000] {fetch_ohlcv.py:118} INFO - NVDA: calling Twelve Data — interval=1h, outputsize=90, watermark=2026-04-30 18:30:00+00:00
+[2026-04-30T18:53:43.776+0000] {fetch_ohlcv.py:189} INFO - NVDA: 0 new bars to upsert after watermark filter.
+[2026-04-30T18:53:43.778+0000] {fetch_ohlcv.py:286} INFO - [NVDA] Done — 0 rows upserted.
+[2026-04-30T18:53:43.804+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-04-30T18:53:43.823+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=fetch_market_data, task_id=ingest_NVDA, execution_date=20260430T180000, start_date=20260430T185342, end_date=20260430T185343
+[2026-04-30T18:53:43.879+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-30T18:53:43.912+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

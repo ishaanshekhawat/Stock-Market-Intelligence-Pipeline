@@ -179,7 +179,7 @@ def fetch_bars(symbol: str, watermark: datetime | None) -> pd.DataFrame:
     # ── Apply watermark filter ───────────────────────────────────────────────
     # Even on incremental runs we fetch outputsize=90 bars (which overlaps with already-stored data) and filter here. The upsert handles any remaining overlap gracefully via ON CONFLICT DO UPDATE.
     if watermark is not None:
-        watermark_ts = pd.Timestamp(watermark, tz="UTC")
+        watermark_ts = pd.Timestamp(watermark)
         if watermark_ts.tzinfo is None:
             watermark_ts = watermark_ts.tz_localize("UTC")
         else:
