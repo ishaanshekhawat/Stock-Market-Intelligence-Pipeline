@@ -40,3 +40,18 @@ Happy modeling!
 [0m17:47:05.472480 [debug] [MainThread]: Command `dbt init` succeeded at 17:47:05.472346 after 12.01 seconds
 [0m17:47:05.472827 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xf8d64a3a2b90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xf8d64bd99e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xf8d64e9d50d0>]}
 [0m17:47:05.473281 [debug] [MainThread]: Flushing usage events
+[0m19:00:19.173157 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xf04ccd6ebcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xf04ccd6ebed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xf04ccd6eb910>]}
+
+
+============================== 19:00:19.176564 | b410299d-c5cc-4a5f-88af-bd1e3510586f ==============================
+[0m19:00:19.176564 [info ] [MainThread]: Running with dbt=1.7.0
+[0m19:00:19.177407 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/ubuntu/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt clean', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:00:19.178187 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:00:19.179162 [debug] [MainThread]: Resource report: {"command_name": "clean", "command_wall_clock_time": 0.044379637, "process_user_time": 1.773887, "process_kernel_time": 0.118925, "process_mem_max_rss": "99656", "process_out_blocks": "16", "command_success": false, "process_in_blocks": "0"}
+[0m19:00:19.179740 [debug] [MainThread]: Command `dbt clean` failed at 19:00:19.179603 after 0.05 seconds
+[0m19:00:19.180165 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xf04ccd6ea190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xf04cd1fe5ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xf04ccd705ad0>]}
+[0m19:00:19.180572 [debug] [MainThread]: Flushing usage events

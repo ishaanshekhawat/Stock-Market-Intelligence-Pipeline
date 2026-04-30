@@ -1,5 +1,7 @@
+CREATE SCHEMA IF NOT EXISTS raw;
+
 -- ─── dim_tickers ───────────────────────────────────────────────────────────
-CREATE TABLE IF NOT EXISTS dim_tickers (
+CREATE TABLE IF NOT EXISTS raw.dim_tickers (
     ticker_id     SERIAL PRIMARY KEY,
     symbol        VARCHAR(10)  NOT NULL UNIQUE,
     company_name  VARCHAR(255) NOT NULL,
@@ -12,9 +14,9 @@ CREATE TABLE IF NOT EXISTS dim_tickers (
 );
 
 -- ─── stg_prices (raw landing table) ────────────────────────────────────────
-CREATE TABLE IF NOT EXISTS stg_prices (
+CREATE TABLE IF NOT EXISTS raw.stg_prices (
     id            BIGSERIAL PRIMARY KEY,
-    ticker_id     INT         NOT NULL REFERENCES dim_tickers(ticker_id),
+    ticker_id     INT         NOT NULL REFERENCES raw.dim_tickers(ticker_id),
     fetched_at    TIMESTAMPTZ NOT NULL,
     ingested_at   TIMESTAMPTZ NOT NULL DEFAULT NOW(),
     open          NUMERIC(12,4),
@@ -87,7 +89,7 @@ CREATE TABLE IF NOT EXISTS fact_indicators (
 -- ─── fact_alerts ───────────────────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS fact_alerts (
     alert_id      BIGSERIAL PRIMARY KEY,
-    ticker_id     INT         NOT NULL REFERENCES dim_tickers(ticker_id),
+    ticker_id     INT         NOT NULL REFERENCES raw.dim_tickers(ticker_id),
     alert_type    VARCHAR(50) NOT NULL,
     triggered_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
     metric_value  NUMERIC(12,4),
@@ -98,7 +100,7 @@ CREATE TABLE IF NOT EXISTS fact_alerts (
 
 -- ─── Indexes ───────────────────────────────────────────────────────────────
 CREATE INDEX IF NOT EXISTS idx_stg_prices_ticker_time
-    ON stg_prices (ticker_id, fetched_at DESC);
+    ON raw.stg_prices (ticker_id, fetched_at DESC);
 
 CREATE INDEX IF NOT EXISTS idx_fact_indicators_ticker_time
     ON fact_indicators (ticker_id, fetched_at DESC);

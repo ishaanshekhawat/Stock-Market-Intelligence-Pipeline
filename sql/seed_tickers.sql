@@ -1,4 +1,4 @@
-INSERT INTO dim_tickers (symbol, company_name, exchange, sector, industry) VALUES
+INSERT INTO raw.dim_tickers (symbol, company_name, exchange, sector, industry) VALUES
     ('AAPL',  'Apple Inc.',                    'NASDAQ', 'Technology',            'Consumer Electronics'),
     ('MSFT',  'Microsoft Corporation',          'NASDAQ', 'Technology',            'Software'),
     ('GOOGL', 'Alphabet Inc.',                  'NASDAQ', 'Technology',            'Internet Services'),

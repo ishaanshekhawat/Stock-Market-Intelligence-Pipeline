@@ -56,7 +56,7 @@ def get_ticker_id(conn: psycopg2.extensions.connection, symbol: str) -> int:
     """
     with conn.cursor() as cur:
         cur.execute(
-            "SELECT ticker_id FROM dim_tickers WHERE symbol = %s AND is_active = TRUE",
+            "SELECT ticker_id FROM raw.dim_tickers WHERE symbol = %s AND is_active = TRUE",
             (symbol,)
         )
         row = cur.fetchone()
@@ -81,7 +81,7 @@ def get_watermark(
     """
     with conn.cursor() as cur:
         cur.execute(
-            "SELECT MAX(fetched_at) FROM stg_prices WHERE ticker_id = %s",
+            "SELECT MAX(fetched_at) FROM raw.stg_prices WHERE ticker_id = %s",
             (ticker_id,)
         )
         row = cur.fetchone()
@@ -180,6 +180,10 @@ def fetch_bars(symbol: str, watermark: datetime | None) -> pd.DataFrame:
     # Even on incremental runs we fetch outputsize=90 bars (which overlaps with already-stored data) and filter here. The upsert handles any remaining overlap gracefully via ON CONFLICT DO UPDATE.
     if watermark is not None:
         watermark_ts = pd.Timestamp(watermark, tz="UTC")
+        if watermark_ts.tzinfo is None:
+            watermark_ts = watermark_ts.tz_localize("UTC")
+        else:
+            watermark_ts = watermark_ts.tz_convert("UTC")
         ts = ts[ts["fetched_at"] > watermark_ts]
 
     logger.info(f"{symbol}: {len(ts)} new bars to upsert after watermark filter.")
@@ -208,7 +212,7 @@ def upsert_bars(
         return 0
 
     upsert_sql = """
-        INSERT INTO stg_prices
+        INSERT INTO raw.stg_prices
             (ticker_id, fetched_at, open, high, low, close, adj_close, volume)
         VALUES
             (%s, %s, %s, %s, %s, %s, %s, %s)
