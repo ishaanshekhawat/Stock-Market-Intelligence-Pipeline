@@ -43,8 +43,9 @@ with DAG(
     # Task 1: Check the market is open before doing anything
     check_market = MarketOpenSensor(
         task_id="check_market_open",
-        poke_interval=60,   # re-check every 60 seconds
-        timeout=900,        # give up after 15 minutes (one full schedule interval)
+        poke_interval=900,   # re-check every 900 seconds
+        timeout=3600,        # give up after 60 minutes (one full schedule interval)
+        soft_fail=True,     # mark as SKIPPED on timeout
         mode="reschedule",  # releases the worker slot while waiting (efficient)
     )
 

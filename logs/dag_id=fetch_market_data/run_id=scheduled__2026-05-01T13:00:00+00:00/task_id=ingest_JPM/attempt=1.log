@@ -1,0 +1,18 @@
+[2026-05-01T14:00:04.334+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.ingest_JPM scheduled__2026-05-01T13:00:00+00:00 [queued]>
+[2026-05-01T14:00:04.398+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.ingest_JPM scheduled__2026-05-01T13:00:00+00:00 [queued]>
+[2026-05-01T14:00:04.398+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T14:00:04.462+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): ingest_JPM> on 2026-05-01 13:00:00+00:00
+[2026-05-01T14:00:04.501+0000] {standard_task_runner.py:60} INFO - Started process 695964 to run task
+[2026-05-01T14:00:04.523+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'ingest_JPM', 'scheduled__2026-05-01T13:00:00+00:00', '--job-id', '960', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmpgz2d0yyo']
+[2026-05-01T14:00:04.544+0000] {standard_task_runner.py:88} INFO - Job 960: Subtask ingest_JPM
+[2026-05-01T14:00:04.937+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.ingest_JPM scheduled__2026-05-01T13:00:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T14:00:05.436+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='ingest_JPM' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T13:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T13:00:00+00:00'
+[2026-05-01T14:00:05.446+0000] {fetch_ohlcv.py:264} INFO - [JPM] Starting ingest cycle.
+[2026-05-01T14:00:05.514+0000] {fetch_ohlcv.py:271} INFO - [JPM] ticker_id=7, watermark=2026-04-30 19:30:00+00:00
+[2026-05-01T14:00:11.084+0000] {fetch_ohlcv.py:118} INFO - JPM: calling Twelve Data — interval=1h, outputsize=90, watermark=2026-04-30 19:30:00+00:00
+[2026-05-01T14:00:11.883+0000] {fetch_ohlcv.py:189} INFO - JPM: 1 new bars to upsert after watermark filter.
+[2026-05-01T14:00:11.891+0000] {fetch_ohlcv.py:286} INFO - [JPM] Done — 1 rows upserted.
+[2026-05-01T14:00:11.920+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-05-01T14:00:11.941+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=fetch_market_data, task_id=ingest_JPM, execution_date=20260501T130000, start_date=20260501T140004, end_date=20260501T140011
+[2026-05-01T14:00:11.974+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T14:00:12.010+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
