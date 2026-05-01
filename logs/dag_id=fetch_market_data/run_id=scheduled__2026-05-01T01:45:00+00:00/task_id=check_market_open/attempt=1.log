@@ -1,0 +1,217 @@
+[2026-05-01T02:09:01.567+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:09:01.574+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:09:01.574+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T02:09:01.585+0000] {taskinstance.py:2191} INFO - Executing <Task(MarketOpenSensor): check_market_open> on 2026-05-01 01:45:00+00:00
+[2026-05-01T02:09:01.592+0000] {standard_task_runner.py:60} INFO - Started process 652086 to run task
+[2026-05-01T02:09:01.595+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'check_market_open', 'scheduled__2026-05-01T01:45:00+00:00', '--job-id', '542', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmp_w64x1_d']
+[2026-05-01T02:09:01.597+0000] {standard_task_runner.py:88} INFO - Job 542: Subtask check_market_open
+[2026-05-01T02:09:01.673+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T02:09:01.784+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='check_market_open' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T01:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T01:45:00+00:00'
+[2026-05-01T02:09:01.802+0000] {sensors.py:45} INFO - Market open check at 2026-04-30 22:09 ET: False
+[2026-05-01T02:09:01.828+0000] {taskinstance.py:2658} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-05-01T02:09:01.848+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T02:09:01.889+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-01T02:10:03.281+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:10:03.289+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:10:03.289+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T02:10:03.299+0000] {taskinstance.py:2191} INFO - Executing <Task(MarketOpenSensor): check_market_open> on 2026-05-01 01:45:00+00:00
+[2026-05-01T02:10:03.305+0000] {standard_task_runner.py:60} INFO - Started process 652159 to run task
+[2026-05-01T02:10:03.308+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'check_market_open', 'scheduled__2026-05-01T01:45:00+00:00', '--job-id', '543', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmpqffaf8zn']
+[2026-05-01T02:10:03.311+0000] {standard_task_runner.py:88} INFO - Job 543: Subtask check_market_open
+[2026-05-01T02:10:03.387+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T02:10:03.502+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='check_market_open' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T01:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T01:45:00+00:00'
+[2026-05-01T02:10:03.519+0000] {sensors.py:45} INFO - Market open check at 2026-04-30 22:10 ET: False
+[2026-05-01T02:10:03.546+0000] {taskinstance.py:2658} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-05-01T02:10:03.564+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T02:10:03.604+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-01T02:11:04.647+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:11:04.654+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:11:04.654+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T02:11:04.664+0000] {taskinstance.py:2191} INFO - Executing <Task(MarketOpenSensor): check_market_open> on 2026-05-01 01:45:00+00:00
+[2026-05-01T02:11:04.670+0000] {standard_task_runner.py:60} INFO - Started process 652236 to run task
+[2026-05-01T02:11:04.674+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'check_market_open', 'scheduled__2026-05-01T01:45:00+00:00', '--job-id', '544', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmppl6d1xir']
+[2026-05-01T02:11:04.676+0000] {standard_task_runner.py:88} INFO - Job 544: Subtask check_market_open
+[2026-05-01T02:11:04.751+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T02:11:04.863+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='check_market_open' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T01:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T01:45:00+00:00'
+[2026-05-01T02:11:04.882+0000] {sensors.py:45} INFO - Market open check at 2026-04-30 22:11 ET: False
+[2026-05-01T02:11:04.908+0000] {taskinstance.py:2658} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-05-01T02:11:04.926+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T02:11:04.966+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-01T02:12:06.225+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:12:06.232+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:12:06.232+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T02:12:06.242+0000] {taskinstance.py:2191} INFO - Executing <Task(MarketOpenSensor): check_market_open> on 2026-05-01 01:45:00+00:00
+[2026-05-01T02:12:06.249+0000] {standard_task_runner.py:60} INFO - Started process 652302 to run task
+[2026-05-01T02:12:06.252+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'check_market_open', 'scheduled__2026-05-01T01:45:00+00:00', '--job-id', '545', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmpsis2bgbg']
+[2026-05-01T02:12:06.254+0000] {standard_task_runner.py:88} INFO - Job 545: Subtask check_market_open
+[2026-05-01T02:12:06.333+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T02:12:06.443+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='check_market_open' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T01:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T01:45:00+00:00'
+[2026-05-01T02:12:06.462+0000] {sensors.py:45} INFO - Market open check at 2026-04-30 22:12 ET: False
+[2026-05-01T02:12:06.488+0000] {taskinstance.py:2658} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-05-01T02:12:06.507+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T02:12:06.549+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-01T02:13:07.775+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:13:07.783+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:13:07.783+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T02:13:07.793+0000] {taskinstance.py:2191} INFO - Executing <Task(MarketOpenSensor): check_market_open> on 2026-05-01 01:45:00+00:00
+[2026-05-01T02:13:07.800+0000] {standard_task_runner.py:60} INFO - Started process 652368 to run task
+[2026-05-01T02:13:07.803+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'check_market_open', 'scheduled__2026-05-01T01:45:00+00:00', '--job-id', '546', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmpgb9x6oc9']
+[2026-05-01T02:13:07.805+0000] {standard_task_runner.py:88} INFO - Job 546: Subtask check_market_open
+[2026-05-01T02:13:07.881+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T02:13:07.990+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='check_market_open' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T01:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T01:45:00+00:00'
+[2026-05-01T02:13:08.008+0000] {sensors.py:45} INFO - Market open check at 2026-04-30 22:13 ET: False
+[2026-05-01T02:13:08.034+0000] {taskinstance.py:2658} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-05-01T02:13:08.056+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T02:13:08.097+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-01T02:14:08.931+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:14:08.939+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:14:08.939+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T02:14:08.949+0000] {taskinstance.py:2191} INFO - Executing <Task(MarketOpenSensor): check_market_open> on 2026-05-01 01:45:00+00:00
+[2026-05-01T02:14:08.955+0000] {standard_task_runner.py:60} INFO - Started process 652437 to run task
+[2026-05-01T02:14:08.959+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'check_market_open', 'scheduled__2026-05-01T01:45:00+00:00', '--job-id', '547', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmpdwc4ytpr']
+[2026-05-01T02:14:08.961+0000] {standard_task_runner.py:88} INFO - Job 547: Subtask check_market_open
+[2026-05-01T02:14:09.041+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T02:14:09.154+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='check_market_open' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T01:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T01:45:00+00:00'
+[2026-05-01T02:14:09.172+0000] {sensors.py:45} INFO - Market open check at 2026-04-30 22:14 ET: False
+[2026-05-01T02:14:09.198+0000] {taskinstance.py:2658} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-05-01T02:14:09.212+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T02:14:09.252+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-01T02:15:10.209+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:15:10.217+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:15:10.217+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T02:15:10.227+0000] {taskinstance.py:2191} INFO - Executing <Task(MarketOpenSensor): check_market_open> on 2026-05-01 01:45:00+00:00
+[2026-05-01T02:15:10.233+0000] {standard_task_runner.py:60} INFO - Started process 652502 to run task
+[2026-05-01T02:15:10.237+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'check_market_open', 'scheduled__2026-05-01T01:45:00+00:00', '--job-id', '548', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmpkpdmkj_f']
+[2026-05-01T02:15:10.239+0000] {standard_task_runner.py:88} INFO - Job 548: Subtask check_market_open
+[2026-05-01T02:15:10.315+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T02:15:10.425+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='check_market_open' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T01:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T01:45:00+00:00'
+[2026-05-01T02:15:10.444+0000] {sensors.py:45} INFO - Market open check at 2026-04-30 22:15 ET: False
+[2026-05-01T02:15:10.471+0000] {taskinstance.py:2658} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-05-01T02:15:10.491+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T02:15:10.532+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-01T02:16:11.482+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:16:11.489+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:16:11.489+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T02:16:11.500+0000] {taskinstance.py:2191} INFO - Executing <Task(MarketOpenSensor): check_market_open> on 2026-05-01 01:45:00+00:00
+[2026-05-01T02:16:11.506+0000] {standard_task_runner.py:60} INFO - Started process 652576 to run task
+[2026-05-01T02:16:11.509+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'check_market_open', 'scheduled__2026-05-01T01:45:00+00:00', '--job-id', '549', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmpc9xadyae']
+[2026-05-01T02:16:11.511+0000] {standard_task_runner.py:88} INFO - Job 549: Subtask check_market_open
+[2026-05-01T02:16:11.587+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T02:16:11.697+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='check_market_open' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T01:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T01:45:00+00:00'
+[2026-05-01T02:16:11.718+0000] {sensors.py:45} INFO - Market open check at 2026-04-30 22:16 ET: False
+[2026-05-01T02:16:11.748+0000] {taskinstance.py:2658} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-05-01T02:16:11.763+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T02:16:11.803+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-01T02:17:12.824+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:17:12.832+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:17:12.832+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T02:17:12.841+0000] {taskinstance.py:2191} INFO - Executing <Task(MarketOpenSensor): check_market_open> on 2026-05-01 01:45:00+00:00
+[2026-05-01T02:17:12.848+0000] {standard_task_runner.py:60} INFO - Started process 652641 to run task
+[2026-05-01T02:17:12.851+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'check_market_open', 'scheduled__2026-05-01T01:45:00+00:00', '--job-id', '550', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmpto94fa5i']
+[2026-05-01T02:17:12.853+0000] {standard_task_runner.py:88} INFO - Job 550: Subtask check_market_open
+[2026-05-01T02:17:12.929+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T02:17:13.038+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='check_market_open' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T01:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T01:45:00+00:00'
+[2026-05-01T02:17:13.056+0000] {sensors.py:45} INFO - Market open check at 2026-04-30 22:17 ET: False
+[2026-05-01T02:17:13.083+0000] {taskinstance.py:2658} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-05-01T02:17:13.104+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T02:17:13.145+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-01T02:18:14.452+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:18:14.460+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:18:14.460+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T02:18:14.470+0000] {taskinstance.py:2191} INFO - Executing <Task(MarketOpenSensor): check_market_open> on 2026-05-01 01:45:00+00:00
+[2026-05-01T02:18:14.476+0000] {standard_task_runner.py:60} INFO - Started process 652709 to run task
+[2026-05-01T02:18:14.479+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'check_market_open', 'scheduled__2026-05-01T01:45:00+00:00', '--job-id', '551', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmp1kxhlp7z']
+[2026-05-01T02:18:14.481+0000] {standard_task_runner.py:88} INFO - Job 551: Subtask check_market_open
+[2026-05-01T02:18:14.558+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T02:18:14.668+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='check_market_open' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T01:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T01:45:00+00:00'
+[2026-05-01T02:18:14.686+0000] {sensors.py:45} INFO - Market open check at 2026-04-30 22:18 ET: False
+[2026-05-01T02:18:14.712+0000] {taskinstance.py:2658} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-05-01T02:18:14.732+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T02:18:14.774+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-01T02:19:16.024+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:19:16.032+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:19:16.032+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T02:19:16.042+0000] {taskinstance.py:2191} INFO - Executing <Task(MarketOpenSensor): check_market_open> on 2026-05-01 01:45:00+00:00
+[2026-05-01T02:19:16.051+0000] {standard_task_runner.py:60} INFO - Started process 652775 to run task
+[2026-05-01T02:19:16.054+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'check_market_open', 'scheduled__2026-05-01T01:45:00+00:00', '--job-id', '552', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmpqcg0rn1h']
+[2026-05-01T02:19:16.056+0000] {standard_task_runner.py:88} INFO - Job 552: Subtask check_market_open
+[2026-05-01T02:19:16.132+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T02:19:16.240+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='check_market_open' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T01:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T01:45:00+00:00'
+[2026-05-01T02:19:16.258+0000] {sensors.py:45} INFO - Market open check at 2026-04-30 22:19 ET: False
+[2026-05-01T02:19:16.284+0000] {taskinstance.py:2658} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-05-01T02:19:16.307+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T02:19:16.348+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-01T02:20:17.558+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:20:17.566+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:20:17.566+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T02:20:17.576+0000] {taskinstance.py:2191} INFO - Executing <Task(MarketOpenSensor): check_market_open> on 2026-05-01 01:45:00+00:00
+[2026-05-01T02:20:17.583+0000] {standard_task_runner.py:60} INFO - Started process 652852 to run task
+[2026-05-01T02:20:17.586+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'check_market_open', 'scheduled__2026-05-01T01:45:00+00:00', '--job-id', '553', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmp1td0w7yh']
+[2026-05-01T02:20:17.588+0000] {standard_task_runner.py:88} INFO - Job 553: Subtask check_market_open
+[2026-05-01T02:20:17.663+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T02:20:17.771+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='check_market_open' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T01:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T01:45:00+00:00'
+[2026-05-01T02:20:17.789+0000] {sensors.py:45} INFO - Market open check at 2026-04-30 22:20 ET: False
+[2026-05-01T02:20:17.815+0000] {taskinstance.py:2658} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-05-01T02:20:17.839+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T02:20:17.879+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-01T02:21:19.094+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:21:19.102+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:21:19.102+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T02:21:19.112+0000] {taskinstance.py:2191} INFO - Executing <Task(MarketOpenSensor): check_market_open> on 2026-05-01 01:45:00+00:00
+[2026-05-01T02:21:19.118+0000] {standard_task_runner.py:60} INFO - Started process 652927 to run task
+[2026-05-01T02:21:19.122+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'check_market_open', 'scheduled__2026-05-01T01:45:00+00:00', '--job-id', '554', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmpg_xxfklu']
+[2026-05-01T02:21:19.123+0000] {standard_task_runner.py:88} INFO - Job 554: Subtask check_market_open
+[2026-05-01T02:21:19.197+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T02:21:19.304+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='check_market_open' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T01:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T01:45:00+00:00'
+[2026-05-01T02:21:19.322+0000] {sensors.py:45} INFO - Market open check at 2026-04-30 22:21 ET: False
+[2026-05-01T02:21:19.348+0000] {taskinstance.py:2658} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-05-01T02:21:19.374+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T02:21:19.428+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-01T02:22:20.545+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:22:20.553+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:22:20.553+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T02:22:20.563+0000] {taskinstance.py:2191} INFO - Executing <Task(MarketOpenSensor): check_market_open> on 2026-05-01 01:45:00+00:00
+[2026-05-01T02:22:20.570+0000] {standard_task_runner.py:60} INFO - Started process 652991 to run task
+[2026-05-01T02:22:20.573+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'check_market_open', 'scheduled__2026-05-01T01:45:00+00:00', '--job-id', '555', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmpeganiqdn']
+[2026-05-01T02:22:20.576+0000] {standard_task_runner.py:88} INFO - Job 555: Subtask check_market_open
+[2026-05-01T02:22:20.658+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T02:22:20.781+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='check_market_open' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T01:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T01:45:00+00:00'
+[2026-05-01T02:22:20.800+0000] {sensors.py:45} INFO - Market open check at 2026-04-30 22:22 ET: False
+[2026-05-01T02:22:20.827+0000] {taskinstance.py:2658} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-05-01T02:22:20.870+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T02:22:20.914+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-01T02:23:22.210+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:23:22.217+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:23:22.217+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T02:23:22.227+0000] {taskinstance.py:2191} INFO - Executing <Task(MarketOpenSensor): check_market_open> on 2026-05-01 01:45:00+00:00
+[2026-05-01T02:23:22.233+0000] {standard_task_runner.py:60} INFO - Started process 653068 to run task
+[2026-05-01T02:23:22.236+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'check_market_open', 'scheduled__2026-05-01T01:45:00+00:00', '--job-id', '556', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmp_22pnhd1']
+[2026-05-01T02:23:22.238+0000] {standard_task_runner.py:88} INFO - Job 556: Subtask check_market_open
+[2026-05-01T02:23:22.312+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T02:23:22.419+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='check_market_open' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T01:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T01:45:00+00:00'
+[2026-05-01T02:23:22.437+0000] {sensors.py:45} INFO - Market open check at 2026-04-30 22:23 ET: False
+[2026-05-01T02:23:22.463+0000] {taskinstance.py:2658} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-05-01T02:23:22.489+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T02:23:22.529+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-01T02:24:23.688+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:24:23.696+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [queued]>
+[2026-05-01T02:24:23.696+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-01T02:24:23.705+0000] {taskinstance.py:2191} INFO - Executing <Task(MarketOpenSensor): check_market_open> on 2026-05-01 01:45:00+00:00
+[2026-05-01T02:24:23.712+0000] {standard_task_runner.py:60} INFO - Started process 653135 to run task
+[2026-05-01T02:24:23.715+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'check_market_open', 'scheduled__2026-05-01T01:45:00+00:00', '--job-id', '557', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmpyqindgfx']
+[2026-05-01T02:24:23.717+0000] {standard_task_runner.py:88} INFO - Job 557: Subtask check_market_open
+[2026-05-01T02:24:23.793+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.check_market_open scheduled__2026-05-01T01:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T02:24:23.904+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='check_market_open' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T01:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-01T01:45:00+00:00'
+[2026-05-01T02:24:23.922+0000] {sensors.py:45} INFO - Market open check at 2026-04-30 22:24 ET: False
+[2026-05-01T02:24:23.923+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/sensors/base.py", line 282, in execute
+    raise AirflowSensorTimeout(message)
+airflow.exceptions.AirflowSensorTimeout: Sensor has timed out; run duration of 922.215464 seconds exceeds the specified timeout of 900.0.
+[2026-05-01T02:24:23.940+0000] {taskinstance.py:1138} INFO - Immediate failure requested. Marking task as FAILED. dag_id=fetch_market_data, task_id=check_market_open, execution_date=20260501T014500, start_date=20260501T022423, end_date=20260501T022423
+[2026-05-01T02:24:23.949+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 557 for task check_market_open (Sensor has timed out; run duration of 922.215464 seconds exceeds the specified timeout of 900.0.; 653135)
+[2026-05-01T02:24:23.968+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-05-01T02:24:24.018+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

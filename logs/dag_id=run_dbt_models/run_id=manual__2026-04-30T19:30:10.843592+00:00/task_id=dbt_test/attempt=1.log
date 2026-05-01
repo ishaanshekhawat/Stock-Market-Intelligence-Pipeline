@@ -1,0 +1,44 @@
+[2026-04-30T19:30:16.716+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: run_dbt_models.dbt_test manual__2026-04-30T19:30:10.843592+00:00 [queued]>
+[2026-04-30T19:30:16.723+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: run_dbt_models.dbt_test manual__2026-04-30T19:30:10.843592+00:00 [queued]>
+[2026-04-30T19:30:16.723+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-04-30T19:30:16.735+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_test> on 2026-04-30 19:30:10.843592+00:00
+[2026-04-30T19:30:16.739+0000] {standard_task_runner.py:60} INFO - Started process 623900 to run task
+[2026-04-30T19:30:16.742+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'run_dbt_models', 'dbt_test', 'manual__2026-04-30T19:30:10.843592+00:00', '--job-id', '151', '--raw', '--subdir', 'DAGS_FOLDER/run_dbt_models.py', '--cfg-path', '/tmp/tmpxb2ke9bn']
+[2026-04-30T19:30:16.744+0000] {standard_task_runner.py:88} INFO - Job 151: Subtask dbt_test
+[2026-04-30T19:30:16.815+0000] {task_command.py:423} INFO - Running <TaskInstance: run_dbt_models.dbt_test manual__2026-04-30T19:30:10.843592+00:00 [running]> on host reddit-pipeline-vm
+[2026-04-30T19:30:16.922+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='run_dbt_models' AIRFLOW_CTX_TASK_ID='dbt_test' AIRFLOW_CTX_EXECUTION_DATE='2026-04-30T19:30:10.843592+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-30T19:30:10.843592+00:00'
+[2026-04-30T19:30:16.923+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-30T19:30:16.924+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dbt_project && /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/bin/dbt test --profiles-dir /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dbt_project']
+[2026-04-30T19:30:16.933+0000] {subprocess.py:86} INFO - Output:
+[2026-04-30T19:30:18.689+0000] {subprocess.py:93} INFO - [0m19:30:18  Running with dbt=1.7.0
+[2026-04-30T19:30:18.930+0000] {subprocess.py:93} INFO - [0m19:30:18  Registered adapter: postgres=1.7.0
+[2026-04-30T19:30:18.975+0000] {subprocess.py:93} INFO - [0m19:30:18  Found 5 models, 8 tests, 0 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[2026-04-30T19:30:18.978+0000] {subprocess.py:93} INFO - [0m19:30:18
+[2026-04-30T19:30:19.069+0000] {subprocess.py:93} INFO - [0m19:30:19  Concurrency: 2 threads (target='dev')
+[2026-04-30T19:30:19.071+0000] {subprocess.py:93} INFO - [0m19:30:19
+[2026-04-30T19:30:19.073+0000] {subprocess.py:93} INFO - [0m19:30:19  1 of 8 START test accepted_values_fact_alerts_alert_type__rsi_overbought__rsi_oversold__volume_spike__bb_upper_breach__bb_lower_breach__macd_bullish_cross__macd_bearish_cross  [RUN]
+[2026-04-30T19:30:19.074+0000] {subprocess.py:93} INFO - [0m19:30:19  2 of 8 START test assert_rsi_valid_range ....................................... [RUN]
+[2026-04-30T19:30:19.160+0000] {subprocess.py:93} INFO - [0m19:30:19  1 of 8 PASS accepted_values_fact_alerts_alert_type__rsi_overbought__rsi_oversold__volume_spike__bb_upper_breach__bb_lower_breach__macd_bullish_cross__macd_bearish_cross  [[32mPASS[0m in 0.08s]
+[2026-04-30T19:30:19.161+0000] {subprocess.py:93} INFO - [0m19:30:19  2 of 8 PASS assert_rsi_valid_range ............................................. [[32mPASS[0m in 0.08s]
+[2026-04-30T19:30:19.165+0000] {subprocess.py:93} INFO - [0m19:30:19  3 of 8 START test not_null_fact_indicators_fetched_at .......................... [RUN]
+[2026-04-30T19:30:19.165+0000] {subprocess.py:93} INFO - [0m19:30:19  4 of 8 START test not_null_fact_indicators_rsi_14 .............................. [RUN]
+[2026-04-30T19:30:19.219+0000] {subprocess.py:93} INFO - [0m19:30:19  4 of 8 PASS not_null_fact_indicators_rsi_14 .................................... [[32mPASS[0m in 0.05s]
+[2026-04-30T19:30:19.220+0000] {subprocess.py:93} INFO - [0m19:30:19  3 of 8 PASS not_null_fact_indicators_fetched_at ................................ [[32mPASS[0m in 0.05s]
+[2026-04-30T19:30:19.223+0000] {subprocess.py:93} INFO - [0m19:30:19  5 of 8 START test not_null_fact_indicators_ticker_id ........................... [RUN]
+[2026-04-30T19:30:19.224+0000] {subprocess.py:93} INFO - [0m19:30:19  6 of 8 START test not_null_fact_prices_adj_close ............................... [RUN]
+[2026-04-30T19:30:19.282+0000] {subprocess.py:93} INFO - [0m19:30:19  5 of 8 PASS not_null_fact_indicators_ticker_id ................................. [[32mPASS[0m in 0.06s]
+[2026-04-30T19:30:19.283+0000] {subprocess.py:93} INFO - [0m19:30:19  6 of 8 PASS not_null_fact_prices_adj_close ..................................... [[32mPASS[0m in 0.06s]
+[2026-04-30T19:30:19.287+0000] {subprocess.py:93} INFO - [0m19:30:19  7 of 8 START test not_null_fact_prices_fetched_at .............................. [RUN]
+[2026-04-30T19:30:19.293+0000] {subprocess.py:93} INFO - [0m19:30:19  8 of 8 START test not_null_fact_prices_ticker_id ............................... [RUN]
+[2026-04-30T19:30:19.331+0000] {subprocess.py:93} INFO - [0m19:30:19  7 of 8 PASS not_null_fact_prices_fetched_at .................................... [[32mPASS[0m in 0.04s]
+[2026-04-30T19:30:19.339+0000] {subprocess.py:93} INFO - [0m19:30:19  8 of 8 PASS not_null_fact_prices_ticker_id ..................................... [[32mPASS[0m in 0.04s]
+[2026-04-30T19:30:19.361+0000] {subprocess.py:93} INFO - [0m19:30:19
+[2026-04-30T19:30:19.362+0000] {subprocess.py:93} INFO - [0m19:30:19  Finished running 8 tests in 0 hours 0 minutes and 0.38 seconds (0.38s).
+[2026-04-30T19:30:19.371+0000] {subprocess.py:93} INFO - [0m19:30:19
+[2026-04-30T19:30:19.372+0000] {subprocess.py:93} INFO - [0m19:30:19  [32mCompleted successfully[0m
+[2026-04-30T19:30:19.372+0000] {subprocess.py:93} INFO - [0m19:30:19
+[2026-04-30T19:30:19.373+0000] {subprocess.py:93} INFO - [0m19:30:19  Done. PASS=8 WARN=0 ERROR=0 SKIP=0 TOTAL=8
+[2026-04-30T19:30:20.742+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-04-30T19:30:20.788+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=run_dbt_models, task_id=dbt_test, execution_date=20260430T193010, start_date=20260430T193016, end_date=20260430T193020
+[2026-04-30T19:30:20.809+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-30T19:30:20.836+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

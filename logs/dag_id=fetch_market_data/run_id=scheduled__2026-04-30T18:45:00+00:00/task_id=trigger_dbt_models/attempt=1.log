@@ -1,0 +1,12 @@
+[2026-04-30T19:00:22.546+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.trigger_dbt_models scheduled__2026-04-30T18:45:00+00:00 [queued]>
+[2026-04-30T19:00:22.556+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.trigger_dbt_models scheduled__2026-04-30T18:45:00+00:00 [queued]>
+[2026-04-30T19:00:22.556+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-04-30T19:00:22.569+0000] {taskinstance.py:2191} INFO - Executing <Task(TriggerDagRunOperator): trigger_dbt_models> on 2026-04-30 18:45:00+00:00
+[2026-04-30T19:00:22.577+0000] {standard_task_runner.py:60} INFO - Started process 621763 to run task
+[2026-04-30T19:00:22.580+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'trigger_dbt_models', 'scheduled__2026-04-30T18:45:00+00:00', '--job-id', '127', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmpir7o9okq']
+[2026-04-30T19:00:22.583+0000] {standard_task_runner.py:88} INFO - Job 127: Subtask trigger_dbt_models
+[2026-04-30T19:00:22.664+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.trigger_dbt_models scheduled__2026-04-30T18:45:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-04-30T19:00:22.788+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='trigger_dbt_models' AIRFLOW_CTX_EXECUTION_DATE='2026-04-30T18:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-04-30T18:45:00+00:00'
+[2026-04-30T19:00:22.939+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=fetch_market_data, task_id=trigger_dbt_models, execution_date=20260430T184500, start_date=20260430T190022, end_date=20260430T190022
+[2026-04-30T19:00:22.996+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-30T19:00:23.025+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

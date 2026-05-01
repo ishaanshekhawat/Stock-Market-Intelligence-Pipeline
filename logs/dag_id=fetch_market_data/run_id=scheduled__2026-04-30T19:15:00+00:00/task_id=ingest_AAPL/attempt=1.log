@@ -1,0 +1,18 @@
+[2026-04-30T19:30:04.539+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.ingest_AAPL scheduled__2026-04-30T19:15:00+00:00 [queued]>
+[2026-04-30T19:30:04.559+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.ingest_AAPL scheduled__2026-04-30T19:15:00+00:00 [queued]>
+[2026-04-30T19:30:04.559+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-04-30T19:30:04.593+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): ingest_AAPL> on 2026-04-30 19:15:00+00:00
+[2026-04-30T19:30:04.606+0000] {standard_task_runner.py:60} INFO - Started process 623731 to run task
+[2026-04-30T19:30:04.620+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'ingest_AAPL', 'scheduled__2026-04-30T19:15:00+00:00', '--job-id', '145', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmpnqkfitbz']
+[2026-04-30T19:30:04.623+0000] {standard_task_runner.py:88} INFO - Job 145: Subtask ingest_AAPL
+[2026-04-30T19:30:04.826+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.ingest_AAPL scheduled__2026-04-30T19:15:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-04-30T19:30:05.292+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='ingest_AAPL' AIRFLOW_CTX_EXECUTION_DATE='2026-04-30T19:15:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-04-30T19:15:00+00:00'
+[2026-04-30T19:30:05.299+0000] {fetch_ohlcv.py:264} INFO - [AAPL] Starting ingest cycle.
+[2026-04-30T19:30:05.343+0000] {fetch_ohlcv.py:271} INFO - [AAPL] ticker_id=1, watermark=2026-04-30 18:30:00+00:00
+[2026-04-30T19:30:06.395+0000] {fetch_ohlcv.py:118} INFO - AAPL: calling Twelve Data — interval=1h, outputsize=90, watermark=2026-04-30 18:30:00+00:00
+[2026-04-30T19:30:06.763+0000] {fetch_ohlcv.py:189} INFO - AAPL: 0 new bars to upsert after watermark filter.
+[2026-04-30T19:30:06.765+0000] {fetch_ohlcv.py:286} INFO - [AAPL] Done — 0 rows upserted.
+[2026-04-30T19:30:06.788+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-04-30T19:30:06.805+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=fetch_market_data, task_id=ingest_AAPL, execution_date=20260430T191500, start_date=20260430T193004, end_date=20260430T193006
+[2026-04-30T19:30:06.855+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-30T19:30:06.891+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

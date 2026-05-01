@@ -1,7 +1,7 @@
 """
 fetch_market_data.py
 --------------------
-Main ingestion DAG. Runs every 15 minutes on weekdays.
+Main ingestion DAG. Runs every hour on weekdays.
 Task flow:
   check_market_open → [ingest_AAPL, ingest_MSFT, ...] → trigger_dbt
 """
@@ -33,7 +33,7 @@ with DAG(
     dag_id="fetch_market_data",
     default_args=default_args,
     description="Ingest 15-min OHLCV bars for all watchlist tickers",
-    schedule_interval="*/15 * * * 1-5",  # every 15 min, Mon–Fri
+    schedule_interval="*/60 * * * 1-5",  # every 60 min, Mon–Fri
     start_date=datetime(2026, 1, 1),
     catchup=False,          # IMPORTANT: don't backfill missed runs automatically
     max_active_runs=1,      # prevent overlapping runs
