@@ -1,0 +1,51 @@
+[2026-05-01T19:03:00.626+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: run_dbt_models.dbt_run manual__2026-05-01T14:00:15.714770+00:00 [queued]>
+[2026-05-01T19:03:00.648+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: run_dbt_models.dbt_run manual__2026-05-01T14:00:15.714770+00:00 [queued]>
+[2026-05-01T19:03:00.649+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-05-01T19:03:00.697+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_run> on 2026-05-01 14:00:15.714770+00:00
+[2026-05-01T19:03:00.712+0000] {standard_task_runner.py:60} INFO - Started process 712946 to run task
+[2026-05-01T19:03:00.722+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'run_dbt_models', 'dbt_run', 'manual__2026-05-01T14:00:15.714770+00:00', '--job-id', '1013', '--raw', '--subdir', 'DAGS_FOLDER/run_dbt_models.py', '--cfg-path', '/tmp/tmpjczm7bbu']
+[2026-05-01T19:03:00.729+0000] {standard_task_runner.py:88} INFO - Job 1013: Subtask dbt_run
+[2026-05-01T19:03:01.031+0000] {task_command.py:423} INFO - Running <TaskInstance: run_dbt_models.dbt_run manual__2026-05-01T14:00:15.714770+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T19:03:01.421+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='run_dbt_models' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T14:00:15.714770+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-01T14:00:15.714770+00:00'
+[2026-05-01T19:03:01.426+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-01T19:03:01.426+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dbt_project && /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/bin/dbt run --profiles-dir /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dbt_project']
+[2026-05-01T19:03:01.465+0000] {subprocess.py:86} INFO - Output:
+[2026-05-01T19:03:07.705+0000] {subprocess.py:93} INFO - [0m19:03:07  Running with dbt=1.7.0
+[2026-05-01T19:03:08.474+0000] {subprocess.py:93} INFO - [0m19:03:08  Registered adapter: postgres=1.7.0
+[2026-05-01T19:03:08.645+0000] {subprocess.py:93} INFO - [0m19:03:08  Found 5 models, 8 tests, 0 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[2026-05-01T19:03:08.657+0000] {subprocess.py:93} INFO - [0m19:03:08
+[2026-05-01T19:03:09.099+0000] {subprocess.py:93} INFO - [0m19:03:09  Concurrency: 2 threads (target='dev')
+[2026-05-01T19:03:09.110+0000] {subprocess.py:93} INFO - [0m19:03:09
+[2026-05-01T19:03:09.135+0000] {subprocess.py:93} INFO - [0m19:03:09  1 of 5 START sql view model public_staging.stg_prices .......................... [RUN]
+[2026-05-01T19:03:09.893+0000] {subprocess.py:93} INFO - [0m19:03:09  1 of 5 OK created sql view model public_staging.stg_prices ..................... [[32mCREATE VIEW[0m in 0.76s]
+[2026-05-01T19:03:09.900+0000] {subprocess.py:93} INFO - [0m19:03:09  2 of 5 START sql view model public_staging.int_price_with_returns .............. [RUN]
+[2026-05-01T19:03:10.141+0000] {subprocess.py:93} INFO - [0m19:03:10  2 of 5 OK created sql view model public_staging.int_price_with_returns ......... [[32mCREATE VIEW[0m in 0.24s]
+[2026-05-01T19:03:10.144+0000] {subprocess.py:93} INFO - [0m19:03:10  3 of 5 START sql table model public.fact_prices ................................ [RUN]
+[2026-05-01T19:03:10.328+0000] {subprocess.py:93} INFO - [0m19:03:10  3 of 5 ERROR creating sql table model public.fact_prices ....................... [[31mERROR[0m in 0.18s]
+[2026-05-01T19:03:10.332+0000] {subprocess.py:93} INFO - [0m19:03:10  4 of 5 SKIP relation public.fact_indicators .................................... [[33mSKIP[0m]
+[2026-05-01T19:03:10.343+0000] {subprocess.py:93} INFO - [0m19:03:10  5 of 5 SKIP relation public.fact_alerts ........................................ [[33mSKIP[0m]
+[2026-05-01T19:03:10.406+0000] {subprocess.py:93} INFO - [0m19:03:10
+[2026-05-01T19:03:10.408+0000] {subprocess.py:93} INFO - [0m19:03:10  Finished running 2 view models, 3 table models in 0 hours 0 minutes and 1.75 seconds (1.75s).
+[2026-05-01T19:03:10.448+0000] {subprocess.py:93} INFO - [0m19:03:10
+[2026-05-01T19:03:10.449+0000] {subprocess.py:93} INFO - [0m19:03:10  [31mCompleted with 1 error and 0 warnings:[0m
+[2026-05-01T19:03:10.449+0000] {subprocess.py:93} INFO - [0m19:03:10
+[2026-05-01T19:03:10.449+0000] {subprocess.py:93} INFO - [0m19:03:10    Database Error in model fact_prices (models/marts/fact_prices.sql)
+[2026-05-01T19:03:10.449+0000] {subprocess.py:93} INFO -   relation "public_staging.int_price_with_returns" does not exist
+[2026-05-01T19:03:10.449+0000] {subprocess.py:93} INFO -   LINE 27: FROM "market_db"."public_staging"."int_price_with_returns"
+[2026-05-01T19:03:10.449+0000] {subprocess.py:93} INFO -                 ^
+[2026-05-01T19:03:10.449+0000] {subprocess.py:93} INFO -   compiled Code at target/run/market_pipeline/models/marts/fact_prices.sql
+[2026-05-01T19:03:10.449+0000] {subprocess.py:93} INFO - [0m19:03:10
+[2026-05-01T19:03:10.453+0000] {subprocess.py:93} INFO - [0m19:03:10  Done. PASS=2 WARN=0 ERROR=1 SKIP=2 TOTAL=5
+[2026-05-01T19:03:12.588+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-05-01T19:03:12.646+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-05-01T19:03:12.659+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=run_dbt_models, task_id=dbt_run, execution_date=20260501T140015, start_date=20260501T190300, end_date=20260501T190312
+[2026-05-01T19:03:12.692+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 1013 for task dbt_run (Bash command failed. The command returned a non-zero exit code 1.; 712946)
+[2026-05-01T19:03:12.741+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-05-01T19:03:12.776+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

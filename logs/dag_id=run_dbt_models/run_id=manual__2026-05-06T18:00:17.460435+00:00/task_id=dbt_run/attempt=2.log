@@ -1,0 +1,54 @@
+[2026-05-06T18:03:19.481+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: run_dbt_models.dbt_run manual__2026-05-06T18:00:17.460435+00:00 [queued]>
+[2026-05-06T18:03:19.487+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: run_dbt_models.dbt_run manual__2026-05-06T18:00:17.460435+00:00 [queued]>
+[2026-05-06T18:03:19.488+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2026-05-06T18:03:19.498+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_run> on 2026-05-06 18:00:17.460435+00:00
+[2026-05-06T18:03:19.503+0000] {standard_task_runner.py:60} INFO - Started process 1041748 to run task
+[2026-05-06T18:03:19.506+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'run_dbt_models', 'dbt_run', 'manual__2026-05-06T18:00:17.460435+00:00', '--job-id', '1374', '--raw', '--subdir', 'DAGS_FOLDER/run_dbt_models.py', '--cfg-path', '/tmp/tmpyrrh1e82']
+[2026-05-06T18:03:19.508+0000] {standard_task_runner.py:88} INFO - Job 1374: Subtask dbt_run
+[2026-05-06T18:03:19.582+0000] {task_command.py:423} INFO - Running <TaskInstance: run_dbt_models.dbt_run manual__2026-05-06T18:00:17.460435+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-06T18:03:19.691+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='run_dbt_models' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2026-05-06T18:00:17.460435+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-06T18:00:17.460435+00:00'
+[2026-05-06T18:03:19.692+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-06T18:03:19.692+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dbt_project && /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/bin/dbt run --profiles-dir /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dbt_project']
+[2026-05-06T18:03:19.701+0000] {subprocess.py:86} INFO - Output:
+[2026-05-06T18:03:19.915+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-05-06T18:03:19.916+0000] {subprocess.py:93} INFO -   File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/bin/dbt", line 3, in <module>
+[2026-05-06T18:03:19.916+0000] {subprocess.py:93} INFO -     from dbt.cli.main import cli
+[2026-05-06T18:03:19.916+0000] {subprocess.py:93} INFO -   File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/dbt/cli/__init__.py", line 1, in <module>
+[2026-05-06T18:03:19.916+0000] {subprocess.py:93} INFO -     from .main import cli as dbt_cli  # noqa
+[2026-05-06T18:03:19.916+0000] {subprocess.py:93} INFO -     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-05-06T18:03:19.916+0000] {subprocess.py:93} INFO -   File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/dbt/cli/main.py", line 14, in <module>
+[2026-05-06T18:03:19.916+0000] {subprocess.py:93} INFO -     from dbt.cli import requires, params as p
+[2026-05-06T18:03:19.916+0000] {subprocess.py:93} INFO -   File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/dbt/cli/requires.py", line 1, in <module>
+[2026-05-06T18:03:19.916+0000] {subprocess.py:93} INFO -     import dbt.tracking
+[2026-05-06T18:03:19.917+0000] {subprocess.py:93} INFO -   File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/dbt/tracking.py", line 15, in <module>
+[2026-05-06T18:03:19.917+0000] {subprocess.py:93} INFO -     from dbt import version as dbt_version
+[2026-05-06T18:03:19.917+0000] {subprocess.py:93} INFO -   File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/dbt/version.py", line 10, in <module>
+[2026-05-06T18:03:19.917+0000] {subprocess.py:93} INFO -     import dbt.exceptions
+[2026-05-06T18:03:19.917+0000] {subprocess.py:93} INFO -   File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/dbt/exceptions.py", line 10, in <module>
+[2026-05-06T18:03:19.917+0000] {subprocess.py:93} INFO -     from dbt.dataclass_schema import ValidationError
+[2026-05-06T18:03:19.917+0000] {subprocess.py:93} INFO -   File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/dbt/dataclass_schema.py", line 10, in <module>
+[2026-05-06T18:03:19.917+0000] {subprocess.py:93} INFO -     from mashumaro import DataClassDictMixin
+[2026-05-06T18:03:19.917+0000] {subprocess.py:93} INFO -   File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/mashumaro/__init__.py", line 3, in <module>
+[2026-05-06T18:03:19.917+0000] {subprocess.py:93} INFO -     from mashumaro.mixins.dict import DataClassDictMixin
+[2026-05-06T18:03:19.917+0000] {subprocess.py:93} INFO -   File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/mashumaro/mixins/dict.py", line 4, in <module>
+[2026-05-06T18:03:19.918+0000] {subprocess.py:93} INFO -     from mashumaro.core.meta.mixin import (
+[2026-05-06T18:03:19.918+0000] {subprocess.py:93} INFO -   File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/mashumaro/core/meta/mixin.py", line 3, in <module>
+[2026-05-06T18:03:19.918+0000] {subprocess.py:93} INFO -     from mashumaro.core.meta.code.builder import CodeBuilder
+[2026-05-06T18:03:19.918+0000] {subprocess.py:93} INFO -   File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/mashumaro/core/meta/code/builder.py", line 64, in <module>
+[2026-05-06T18:03:19.919+0000] {subprocess.py:93} INFO -     from mashumaro.core.meta.types.pack import PackerRegistry
+[2026-05-06T18:03:19.919+0000] {subprocess.py:93} INFO -   File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/mashumaro/core/meta/types/pack.py", line 85, in <module>
+[2026-05-06T18:03:19.919+0000] {subprocess.py:93} INFO -     from typing_extensions import evaluate_forward_ref, get_annotations
+[2026-05-06T18:03:19.919+0000] {subprocess.py:93} INFO - ImportError: cannot import name 'evaluate_forward_ref' from 'typing_extensions' (/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/typing_extensions.py)
+[2026-05-06T18:03:19.959+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-05-06T18:03:19.981+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-05-06T18:03:19.985+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=run_dbt_models, task_id=dbt_run, execution_date=20260506T180017, start_date=20260506T180319, end_date=20260506T180319
+[2026-05-06T18:03:19.996+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 1374 for task dbt_run (Bash command failed. The command returned a non-zero exit code 1.; 1041748)
+[2026-05-06T18:03:20.041+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-05-06T18:03:20.073+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,38 @@
+[2026-05-01T19:06:04.306+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: run_dbt_models.dbt_run manual__2026-05-01T19:00:15.664062+00:00 [queued]>
+[2026-05-01T19:06:04.313+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: run_dbt_models.dbt_run manual__2026-05-01T19:00:15.664062+00:00 [queued]>
+[2026-05-01T19:06:04.313+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 3
+[2026-05-01T19:06:04.324+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_run> on 2026-05-01 19:00:15.664062+00:00
+[2026-05-01T19:06:04.329+0000] {standard_task_runner.py:60} INFO - Started process 713676 to run task
+[2026-05-01T19:06:04.332+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'run_dbt_models', 'dbt_run', 'manual__2026-05-01T19:00:15.664062+00:00', '--job-id', '1027', '--raw', '--subdir', 'DAGS_FOLDER/run_dbt_models.py', '--cfg-path', '/tmp/tmp2b_la3yy']
+[2026-05-01T19:06:04.334+0000] {standard_task_runner.py:88} INFO - Job 1027: Subtask dbt_run
+[2026-05-01T19:06:04.403+0000] {task_command.py:423} INFO - Running <TaskInstance: run_dbt_models.dbt_run manual__2026-05-01T19:00:15.664062+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-01T19:06:04.504+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='run_dbt_models' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2026-05-01T19:00:15.664062+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-01T19:00:15.664062+00:00'
+[2026-05-01T19:06:04.505+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-01T19:06:04.505+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dbt_project && /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/bin/dbt run --profiles-dir /home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/dbt_project']
+[2026-05-01T19:06:04.515+0000] {subprocess.py:86} INFO - Output:
+[2026-05-01T19:06:06.279+0000] {subprocess.py:93} INFO - [0m19:06:06  Running with dbt=1.7.0
+[2026-05-01T19:06:06.520+0000] {subprocess.py:93} INFO - [0m19:06:06  Registered adapter: postgres=1.7.0
+[2026-05-01T19:06:06.567+0000] {subprocess.py:93} INFO - [0m19:06:06  Found 5 models, 8 tests, 0 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[2026-05-01T19:06:06.570+0000] {subprocess.py:93} INFO - [0m19:06:06
+[2026-05-01T19:06:06.702+0000] {subprocess.py:93} INFO - [0m19:06:06  Concurrency: 2 threads (target='dev')
+[2026-05-01T19:06:06.704+0000] {subprocess.py:93} INFO - [0m19:06:06
+[2026-05-01T19:06:06.705+0000] {subprocess.py:93} INFO - [0m19:06:06  1 of 5 START sql view model public_staging.stg_prices .......................... [RUN]
+[2026-05-01T19:06:06.812+0000] {subprocess.py:93} INFO - [0m19:06:06  1 of 5 OK created sql view model public_staging.stg_prices ..................... [[32mCREATE VIEW[0m in 0.11s]
+[2026-05-01T19:06:06.814+0000] {subprocess.py:93} INFO - [0m19:06:06  2 of 5 START sql view model public_staging.int_price_with_returns .............. [RUN]
+[2026-05-01T19:06:06.861+0000] {subprocess.py:93} INFO - [0m19:06:06  2 of 5 OK created sql view model public_staging.int_price_with_returns ......... [[32mCREATE VIEW[0m in 0.05s]
+[2026-05-01T19:06:06.863+0000] {subprocess.py:93} INFO - [0m19:06:06  3 of 5 START sql table model public.fact_prices ................................ [RUN]
+[2026-05-01T19:06:06.955+0000] {subprocess.py:93} INFO - [0m19:06:06  3 of 5 OK created sql table model public.fact_prices ........................... [[32mSELECT 3598[0m in 0.09s]
+[2026-05-01T19:06:06.957+0000] {subprocess.py:93} INFO - [0m19:06:06  4 of 5 START sql table model public.fact_indicators ............................ [RUN]
+[2026-05-01T19:06:07.139+0000] {subprocess.py:93} INFO - [0m19:06:07  4 of 5 OK created sql table model public.fact_indicators ....................... [[32mSELECT 3598[0m in 0.18s]
+[2026-05-01T19:06:07.141+0000] {subprocess.py:93} INFO - [0m19:06:07  5 of 5 START sql table model public.fact_alerts ................................ [RUN]
+[2026-05-01T19:06:07.214+0000] {subprocess.py:93} INFO - [0m19:06:07  5 of 5 OK created sql table model public.fact_alerts ........................... [[32mSELECT 2074[0m in 0.07s]
+[2026-05-01T19:06:07.236+0000] {subprocess.py:93} INFO - [0m19:06:07
+[2026-05-01T19:06:07.236+0000] {subprocess.py:93} INFO - [0m19:06:07  Finished running 2 view models, 3 table models in 0 hours 0 minutes and 0.66 seconds (0.66s).
+[2026-05-01T19:06:07.245+0000] {subprocess.py:93} INFO - [0m19:06:07
+[2026-05-01T19:06:07.245+0000] {subprocess.py:93} INFO - [0m19:06:07  [32mCompleted successfully[0m
+[2026-05-01T19:06:07.246+0000] {subprocess.py:93} INFO - [0m19:06:07
+[2026-05-01T19:06:07.246+0000] {subprocess.py:93} INFO - [0m19:06:07  Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
+[2026-05-01T19:06:08.836+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-05-01T19:06:08.880+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=run_dbt_models, task_id=dbt_run, execution_date=20260501T190015, start_date=20260501T190604, end_date=20260501T190608
+[2026-05-01T19:06:08.920+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-01T19:06:08.949+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,18 @@
+[2026-05-04T18:00:04.281+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.ingest_AMZN scheduled__2026-05-04T17:00:00+00:00 [queued]>
+[2026-05-04T18:00:04.320+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.ingest_AMZN scheduled__2026-05-04T17:00:00+00:00 [queued]>
+[2026-05-04T18:00:04.320+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-04T18:00:04.374+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): ingest_AMZN> on 2026-05-04 17:00:00+00:00
+[2026-05-04T18:00:04.407+0000] {standard_task_runner.py:60} INFO - Started process 931366 to run task
+[2026-05-04T18:00:04.415+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'ingest_AMZN', 'scheduled__2026-05-04T17:00:00+00:00', '--job-id', '1178', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmp6slw1mwm']
+[2026-05-04T18:00:04.417+0000] {standard_task_runner.py:88} INFO - Job 1178: Subtask ingest_AMZN
+[2026-05-04T18:00:04.737+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.ingest_AMZN scheduled__2026-05-04T17:00:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-04T18:00:05.141+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='ingest_AMZN' AIRFLOW_CTX_EXECUTION_DATE='2026-05-04T17:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-04T17:00:00+00:00'
+[2026-05-04T18:00:05.142+0000] {fetch_ohlcv.py:264} INFO - [AMZN] Starting ingest cycle.
+[2026-05-04T18:00:05.182+0000] {fetch_ohlcv.py:271} INFO - [AMZN] ticker_id=4, watermark=2026-05-04 16:30:00+00:00
+[2026-05-04T18:00:08.312+0000] {fetch_ohlcv.py:118} INFO - AMZN: calling Twelve Data — interval=1h, outputsize=90, watermark=2026-05-04 16:30:00+00:00
+[2026-05-04T18:00:08.821+0000] {fetch_ohlcv.py:189} INFO - AMZN: 1 new bars to upsert after watermark filter.
+[2026-05-04T18:00:08.828+0000] {fetch_ohlcv.py:286} INFO - [AMZN] Done — 1 rows upserted.
+[2026-05-04T18:00:08.854+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-05-04T18:00:08.875+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=fetch_market_data, task_id=ingest_AMZN, execution_date=20260504T170000, start_date=20260504T180004, end_date=20260504T180008
+[2026-05-04T18:00:08.917+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-04T18:00:08.968+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

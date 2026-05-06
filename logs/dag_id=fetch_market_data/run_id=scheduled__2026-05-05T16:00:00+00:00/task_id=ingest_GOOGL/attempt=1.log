@@ -1,0 +1,18 @@
+[2026-05-05T17:00:04.221+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_market_data.ingest_GOOGL scheduled__2026-05-05T16:00:00+00:00 [queued]>
+[2026-05-05T17:00:04.261+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_market_data.ingest_GOOGL scheduled__2026-05-05T16:00:00+00:00 [queued]>
+[2026-05-05T17:00:04.261+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-05T17:00:04.312+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): ingest_GOOGL> on 2026-05-05 16:00:00+00:00
+[2026-05-05T17:00:04.336+0000] {standard_task_runner.py:60} INFO - Started process 1002045 to run task
+[2026-05-05T17:00:04.349+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_market_data', 'ingest_GOOGL', 'scheduled__2026-05-05T16:00:00+00:00', '--job-id', '1331', '--raw', '--subdir', 'DAGS_FOLDER/fetch_market_data.py', '--cfg-path', '/tmp/tmp_v4dcji0']
+[2026-05-05T17:00:04.367+0000] {standard_task_runner.py:88} INFO - Job 1331: Subtask ingest_GOOGL
+[2026-05-05T17:00:04.718+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_market_data.ingest_GOOGL scheduled__2026-05-05T16:00:00+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-05T17:00:05.291+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pipeline' AIRFLOW_CTX_DAG_ID='fetch_market_data' AIRFLOW_CTX_TASK_ID='ingest_GOOGL' AIRFLOW_CTX_EXECUTION_DATE='2026-05-05T16:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-05T16:00:00+00:00'
+[2026-05-05T17:00:05.297+0000] {fetch_ohlcv.py:264} INFO - [GOOGL] Starting ingest cycle.
+[2026-05-05T17:00:05.361+0000] {fetch_ohlcv.py:271} INFO - [GOOGL] ticker_id=3, watermark=2026-05-05 15:30:00+00:00
+[2026-05-05T17:00:08.077+0000] {fetch_ohlcv.py:118} INFO - GOOGL: calling Twelve Data — interval=1h, outputsize=90, watermark=2026-05-05 15:30:00+00:00
+[2026-05-05T17:00:09.828+0000] {fetch_ohlcv.py:189} INFO - GOOGL: 1 new bars to upsert after watermark filter.
+[2026-05-05T17:00:09.836+0000] {fetch_ohlcv.py:286} INFO - [GOOGL] Done — 1 rows upserted.
+[2026-05-05T17:00:09.861+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-05-05T17:00:09.881+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=fetch_market_data, task_id=ingest_GOOGL, execution_date=20260505T160000, start_date=20260505T170004, end_date=20260505T170009
+[2026-05-05T17:00:09.904+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-05T17:00:09.940+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

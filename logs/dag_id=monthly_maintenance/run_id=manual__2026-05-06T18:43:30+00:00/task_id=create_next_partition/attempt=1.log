@@ -1,0 +1,51 @@
+[2026-05-06T18:43:49.486+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: monthly_maintenance.create_next_partition manual__2026-05-06T18:43:30+00:00 [queued]>
+[2026-05-06T18:43:49.492+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: monthly_maintenance.create_next_partition manual__2026-05-06T18:43:30+00:00 [queued]>
+[2026-05-06T18:43:49.493+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-05-06T18:43:49.503+0000] {taskinstance.py:2191} INFO - Executing <Task(PostgresOperator): create_next_partition> on 2026-05-06 18:43:30+00:00
+[2026-05-06T18:43:49.507+0000] {standard_task_runner.py:60} INFO - Started process 1044351 to run task
+[2026-05-06T18:43:49.510+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'monthly_maintenance', 'create_next_partition', 'manual__2026-05-06T18:43:30+00:00', '--job-id', '1375', '--raw', '--subdir', 'DAGS_FOLDER/monthly_maintenance.py', '--cfg-path', '/tmp/tmph4sv7b58']
+[2026-05-06T18:43:49.512+0000] {standard_task_runner.py:88} INFO - Job 1375: Subtask create_next_partition
+[2026-05-06T18:43:49.582+0000] {task_command.py:423} INFO - Running <TaskInstance: monthly_maintenance.create_next_partition manual__2026-05-06T18:43:30+00:00 [running]> on host reddit-pipeline-vm
+[2026-05-06T18:43:49.685+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='monthly_maintenance' AIRFLOW_CTX_TASK_ID='create_next_partition' AIRFLOW_CTX_EXECUTION_DATE='2026-05-06T18:43:30+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-06T18:43:30+00:00'
+[2026-05-06T18:43:49.685+0000] {sql.py:276} INFO - Executing: 
+            DO $$
+            DECLARE
+                next_month DATE := DATE_TRUNC('month', NOW() + INTERVAL '1 month')::DATE;
+                month_end  DATE := (next_month + INTERVAL '1 month')::DATE;
+                tbl_name   TEXT := 'fact_prices_' || TO_CHAR(next_month, 'YYYY_MM');
+            BEGIN
+                IF NOT EXISTS (SELECT 1 FROM pg_tables WHERE tablename = tbl_name) THEN
+                    EXECUTE FORMAT(
+                        'CREATE TABLE %I PARTITION OF fact_prices FOR VALUES FROM (%L) TO (%L)',
+                        tbl_name, next_month, month_end
+                    );
+                END IF;
+            END $$;
+        
+[2026-05-06T18:43:49.719+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/providers/common/sql/operators/sql.py", line 277, in execute
+    hook = self.get_db_hook()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/providers/common/sql/operators/sql.py", line 188, in get_db_hook
+    return self._hook
+           ^^^^^^^^^^
+  File "/usr/lib/python3.11/functools.py", line 1001, in __get__
+    val = self.func(instance)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/providers/common/sql/operators/sql.py", line 150, in _hook
+    conn = BaseHook.get_connection(conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/hooks/base.py", line 82, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/github_repo/Stock-Market-Intelligence-Pipeline/venv/lib/python3.11/site-packages/airflow/models/connection.py", line 479, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `market_db` isn't defined
+[2026-05-06T18:43:49.724+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=monthly_maintenance, task_id=create_next_partition, execution_date=20260506T184330, start_date=20260506T184349, end_date=20260506T184349
+[2026-05-06T18:43:49.735+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 1375 for task create_next_partition (The conn_id `market_db` isn't defined; 1044351)
+[2026-05-06T18:43:49.764+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-05-06T18:43:49.793+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
