@@ -3,6 +3,7 @@
 A production-grade data engineering pipeline that ingests hourly OHLCV price data for 7 US equities, computes technical indicators via SQL-based transformations, detects anomalies, and visualises signals on a live Metabase dashboard.
 
 > **Stack:** Python · Apache Airflow 2.8 · PostgreSQL 15 · dbt 1.7 · Twelve Data API · Metabase
+
 > **Infrastructure:** Oracle Cloud VM.Standard.A1.Flex (2 OCPU, 12 GB RAM)
 
 ## Table of Contents
