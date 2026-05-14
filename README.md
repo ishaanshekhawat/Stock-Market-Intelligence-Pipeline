@@ -22,11 +22,7 @@ A production-grade data engineering pipeline that ingests hourly OHLCV price dat
 12. [Pipeline Reliability Patterns](#12-pipeline-reliability-patterns)
 13. [Design Tradeoffs](#13-design-tradeoffs)
 14. [Failures & How They Were Resolved](#14-failures--how-they-were-resolved)
-15. [What Was Left Out & Why](#15-what-was-left-out--why)
-16. [Project Structure](#16-project-structure)
-17. [Setup & Reproduction](#17-setup--reproduction)
-18. [Environment Variables](#18-environment-variables)
-19. [Future Enhancements](#19-future-enhancements)
+15. [Project Structure](#15-project-structure)
 
 ---
 
